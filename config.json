@@ -1,6 +1,6 @@
 {
   "nome_perfil": "Achadinhos do Matheus",
-  "ml_redirect_uri": "https://www.google.com.br",
+  "ml_redirect_uri": "https://pedropmeira.github.io/achadinhos/autorizar.html",
 
   "_obs_categorias": "Comissao em decimal (0.08 = 8%). Valores ILUSTRATIVOS: troque pela tabela do seu painel de afiliados. Lista de IDs: https://api.mercadolibre.com/sites/MLB/categories",
   "categorias": {
