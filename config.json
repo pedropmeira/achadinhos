@@ -1,29 +1,56 @@
 {
   "nome_perfil": "Achadinhos do Matheus",
   "ml_redirect_uri": "https://pedropmeira.github.io/achadinhos/autorizar.html",
-
-  "_obs_categorias": "Comissao em decimal (0.08 = 8%). Valores ILUSTRATIVOS: troque pela tabela do seu painel de afiliados. Lista de IDs: https://api.mercadolibre.com/sites/MLB/categories",
-  "categorias": {
-    "MLB1055": { "nome": "Celulares e Smartphones", "comissao": 0.05 },
-    "MLB1000": { "nome": "Eletrônicos, Áudio e Vídeo", "comissao": 0.08 },
-    "MLB1648": { "nome": "Informática", "comissao": 0.07 },
-    "MLB5726": { "nome": "Eletrodomésticos", "comissao": 0.08 },
-    "MLB1574": { "nome": "Casa, Móveis e Decoração", "comissao": 0.10 },
-    "MLB1246": { "nome": "Beleza e Cuidado Pessoal", "comissao": 0.12 }
+  "_obs_comissoes": "Comissão de VENDA DIRETA por categoria (0.16 = 16%). O nome tem que ser igual ao do Mercado Livre; o radar acha o ID sozinho. Para ignorar uma categoria, apague a linha ou ponha 0.",
+  "comissoes": {
+    "Beleza e Cuidado Pessoal": 0.16,
+    "Calçados, Roupas e Bolsas": 0.16,
+    "Esportes e Fitness": 0.16,
+    "Acessórios para Veículos": 0.12,
+    "Bebês": 0.12,
+    "Brinquedos e Hobbies": 0.12,
+    "Casa, Móveis e Decoração": 0.12,
+    "Construção": 0.12,
+    "Ferramentas": 0.12,
+    "Games": 0.12,
+    "Joias e Relógios": 0.12,
+    "Livros, Revistas e Comics": 0.12,
+    "Mais Categorias": 0.12,
+    "Câmeras e Acessórios": 0.05,
+    "Celulares e Telefones": 0.05,
+    "Eletrodomésticos": 0.05,
+    "Eletrônicos, Áudio e Vídeo": 0.05,
+    "Informática": 0.05,
+    "Alimentos e Bebidas": 0
   },
-
-  "min_retorno_reais": 10,
+  "min_retorno_reais": 5,
   "min_desconto_pct": 0,
-  "max_sugestoes_por_varredura": 10,
+  "max_sugestoes_por_varredura": 20,
+  "max_por_categoria": 2,
+  "_obs_pontuacao": "Nota 0-100 = peso_retorno x (retorno/retorno_referencia) + peso_desconto x (desconto/desconto_referencia) + peso_popularidade x posição nos mais vendidos. Fora da faixa de preço a nota é multiplicada pela penalidade.",
+  "pontuacao": {
+    "peso_retorno": 0.4,
+    "peso_desconto": 0.3,
+    "peso_popularidade": 0.3,
+    "retorno_referencia": 40,
+    "desconto_referencia": 50,
+    "faixa_preco": [
+      30,
+      500
+    ],
+    "penalidade_fora_faixa": 0.6
+  },
   "dias_para_repetir": 7,
   "sugestao_expira_dias": 2,
-
   "oferta_valida_dias": 15,
   "tolerancia_aumento_pct": 10,
   "apagar_videos_apos_dias": 20,
-
-  "hashtags": ["#achadinhos", "#achadinhosmercadolivre", "#ofertas", "#promoção"],
-
+  "hashtags": [
+    "#achadinhos",
+    "#achadinhosmercadolivre",
+    "#ofertas",
+    "#promoção"
+  ],
   "video": {
     "duracao_s": 7,
     "cor_fundo_topo": "#1B1035",
