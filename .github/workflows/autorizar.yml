@@ -1,0 +1,28 @@
+name: Autorizar Mercado Livre
+
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: "Cole o code (ou a URL inteira para onde o ML te mandou)"
+        required: true
+
+jobs:
+  autorizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - name: Trocar code por token
+        env:
+          ML_CODE: ${{ inputs.code }}
+          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
+        run: cd scripts && python autorizar.py
+      - name: Salvar token
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: gh secret set ML_REFRESH_TOKEN < NOVO_REFRESH_TOKEN
