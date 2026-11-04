@@ -1,5 +1,5 @@
 {
- "proximo_numero": 2,
+ "proximo_numero": 3,
  "sugestoes": [
   {
    "id": "MLB24656724",
@@ -16,22 +16,6 @@
    "desconto": 39,
    "sugerido_em": 1793813228.4676464,
    "nota": 88
-  },
-  {
-   "id": "MLB25371983",
-   "tipo": "PRODUCT",
-   "titulo": "Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI/Libras 1400W 300L/h com Aplicador de Detergente e Lança Regulável 220v",
-   "preco": 298,
-   "original": 499.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_681126-MLA115545993062_082026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB25371983",
-   "categoria": "Ferramentas",
-   "comissao": 0.12,
-   "posicao": 5,
-   "retorno": 35.76,
-   "desconto": 40,
-   "sugerido_em": 1793813228.4676464,
-   "nota": 84
   },
   {
    "id": "MLB19140415",
@@ -608,6 +592,30 @@
   }
  ],
  "ofertas": [
+  {
+   "id": "MLB25371983",
+   "tipo": "PRODUCT",
+   "titulo": "Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI/Libras 1400W 300L/h com Aplicador de Detergente e Lança Regulável 220v",
+   "preco": 298,
+   "original": 499.9,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_681126-MLA115545993062_082026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB25371983",
+   "categoria": "Ferramentas",
+   "comissao": 0.12,
+   "posicao": 5,
+   "retorno": 35.76,
+   "desconto": 40,
+   "sugerido_em": 1793813228.4676464,
+   "nota": 84,
+   "numero": 2,
+   "link": "https://meli.la/2JuCxEt",
+   "preco_postado": 298,
+   "criado_em": 1793813458.0497088,
+   "ativo": true,
+   "postado": false,
+   "video": "videos/2.mp4",
+   "legenda": "Achadinho #2 🔥 Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI/Libras 1400W 300L/h com Apli de R$ 499,90 por R$ 298,00 (40% OFF). Link na bio, procura o nº 2 🔗 #achadinhos #achadinhosmercadolivre #ofertas #promoção"
+  },
   {
    "id": "MLB1055308835",
    "tipo": "PRODUCT",
