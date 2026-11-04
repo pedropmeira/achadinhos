@@ -1,5 +1,5 @@
 {
-  "nome_perfil": "Achadinhos do Matheus",
+  "nome_perfil": "Achadinhos do Praxedes",
   "ml_redirect_uri": "https://pedropmeira.github.io/achadinhos/autorizar.html",
   "_obs_comissoes": "Comissão de VENDA DIRETA por categoria (0.16 = 16%). O nome tem que ser igual ao do Mercado Livre; o radar acha o ID sozinho. Para ignorar uma categoria, apague a linha ou ponha 0.",
   "comissoes": {
