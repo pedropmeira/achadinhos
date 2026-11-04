@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Painel Achadinhos</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1B1035">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icone-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Achadinhos">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --noite: #1B1035; --tinta: #07060D; --placa: #241845; --placa2: #2E2056;
+    --achado: #FFD60A; --selo: #FF3B4E; --ok: #3DDC97;
+    --giz: #F4F2FA; --lavanda: #A59DC0; --linha: rgba(244, 242, 250, .12);
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; min-height: 100dvh; background: var(--tinta); color: var(--giz);
+         font: 500 15px/1.45 Poppins, system-ui, sans-serif; }
+  button, input { font: inherit; color: inherit; }
+  button { cursor: pointer; border: 0; }
+  :focus-visible { outline: 3px solid var(--achado); outline-offset: 2px; }
+
+  header {
+    position: sticky; top: 0; z-index: 5; background: var(--noite);
+    padding: max(14px, env(safe-area-inset-top)) 16px 14px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  header h1 { font-size: 20px; margin: 0; font-weight: 800; }
+  header .status { font-size: 12px; color: var(--lavanda); }
+  header .acoes { margin-left: auto; display: flex; gap: 8px; }
+  .icone { width: 42px; height: 42px; border-radius: 50%; background: var(--placa2); display: grid; place-items: center; }
+  .icone svg { width: 20px; height: 20px; }
+  .icone.girando svg { animation: gira 1s linear infinite; }
+  @keyframes gira { to { transform: rotate(360deg); } }
+
+  main { max-width: 560px; margin: 0 auto; padding: 16px 16px calc(96px + env(safe-area-inset-bottom)); }
+  .aba { display: none; } .aba.ativa { display: block; }
+
+  .cartao { background: var(--placa); border-radius: 24px; padding: 16px; margin-bottom: 14px; }
+  .topo { display: grid; grid-template-columns: 96px 1fr; gap: 14px; }
+  .foto { width: 96px; height: 96px; border-radius: 16px; background: #fff; overflow: hidden; position: relative; }
+  .foto img { width: 100%; height: 100%; object-fit: contain; padding: 6px; }
+  .num { position: absolute; left: 0; bottom: 0; background: var(--achado); color: var(--noite);
+         font-weight: 800; font-size: 13px; padding: 0 8px; border-radius: 0 10px 0 0; line-height: 22px; }
+  .retorno { color: var(--achado); font-size: 26px; font-weight: 800; line-height: 1.1; }
+  .retorno small { font-size: 13px; font-weight: 600; color: var(--lavanda); }
+  .nome { font-weight: 600; margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .meta { color: var(--lavanda); font-size: 13px; margin-top: 4px; }
+  .off { background: var(--selo); color: #fff; font-weight: 700; font-size: 12px; border-radius: 6px; padding: 0 6px; }
+
+  .linha2 { display: flex; gap: 8px; margin-top: 14px; }
+  .btn { flex: 1; min-height: 48px; border-radius: 14px; font-weight: 700; padding: 10px 14px;
+         display: inline-flex; align-items: center; justify-content: center; gap: 6px; text-decoration: none; }
+  .btn.secundario { background: var(--placa2); color: var(--giz); }
+  .btn.principal { background: var(--achado); color: var(--noite); }
+  .btn.fantasma { background: transparent; color: var(--lavanda); flex: 0 0 auto; }
+  .btn[disabled] { opacity: .45; }
+
+  .colar { display: flex; gap: 8px; margin-top: 10px; }
+  .colar input { flex: 1; min-width: 0; min-height: 48px; border-radius: 14px; border: 1px solid var(--linha);
+                 background: var(--tinta); padding: 0 14px; font-size: 15px; }
+  .colar input::placeholder { color: var(--lavanda); }
+  .colar input.erro { border-color: var(--selo); }
+  details { margin-top: 10px; color: var(--lavanda); font-size: 13px; }
+  details summary { cursor: pointer; padding: 4px 0; }
+  details input { width: 100%; margin-top: 8px; min-height: 44px; border-radius: 12px; border: 1px solid var(--linha);
+                  background: var(--tinta); padding: 0 12px; }
+  .erro-msg { color: var(--selo); font-size: 13px; margin: 6px 2px 0; }
+
+  video { width: 100%; aspect-ratio: 9 / 16; max-height: 62vh; background: #000; border-radius: 18px; display: block; margin-top: 14px; }
+  .gerando { margin-top: 14px; padding: 18px; border-radius: 16px; background: var(--placa2); color: var(--lavanda); text-align: center; }
+  .feito { opacity: .55; }
+  .selo-ok { color: var(--ok); font-weight: 700; font-size: 13px; }
+  h2 { font-size: 15px; color: var(--lavanda); font-weight: 600; margin: 24px 4px 10px; }
+
+  .vazio { text-align: center; color: var(--lavanda); padding: 48px 16px; }
+  .vazio strong { display: block; color: var(--giz); font-size: 18px; margin-bottom: 6px; }
+
+  nav {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background: var(--noite);
+    border-top: 1px solid var(--linha); display: flex; padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
+  }
+  nav button { flex: 1; background: none; padding: 10px 4px; border-radius: 14px; color: var(--lavanda); font-weight: 600; font-size: 13px; }
+  nav button[aria-selected="true"] { color: var(--giz); background: var(--placa2); }
+  nav .badge { display: inline-block; min-width: 20px; padding: 0 6px; margin-left: 4px; border-radius: 10px;
+               background: var(--achado); color: var(--noite); font-weight: 800; font-size: 12px; }
+  nav .badge:empty { display: none; }
+
+  .toast { position: fixed; left: 50%; bottom: calc(86px + env(safe-area-inset-bottom)); transform: translateX(-50%);
+           background: var(--giz); color: var(--noite); font-weight: 600; padding: 12px 18px; border-radius: 14px;
+           max-width: calc(100% - 32px); z-index: 9; opacity: 0; pointer-events: none; transition: opacity .2s; }
+  .toast.on { opacity: 1; }
+
+  .config label { display: block; font-weight: 600; margin: 16px 0 6px; }
+  .config input { width: 100%; min-height: 48px; border-radius: 14px; border: 1px solid var(--linha); background: var(--tinta); padding: 0 14px; }
+  .config p { color: var(--lavanda); font-size: 13px; margin: 6px 2px 0; }
+  @media (prefers-reduced-motion: reduce) { .icone.girando svg { animation: none; } .toast { transition: none; } }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Achadinhos</h1>
+    <div class="status" id="status">Carregando…</div>
+  </div>
+  <div class="acoes">
+    <button class="icone" id="btn-buscar" aria-label="Buscar ofertas agora" title="Buscar ofertas agora">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 4v5h-5"/></svg>
+    </button>
+    <button class="icone" id="btn-config" aria-label="Configurações" title="Configurações">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="aba ativa" id="aba-sugestoes" aria-label="Sugestões"></section>
+  <section class="aba" id="aba-postar" aria-label="Para postar"></section>
+  <section class="aba config" id="aba-config" aria-label="Configurações">
+    <form id="form-config">
+      <label for="cfg-repo">Repositório</label>
+      <input id="cfg-repo" placeholder="seu-usuario/achadinhos" autocapitalize="off" autocorrect="off" required>
+      <label for="cfg-token">Token do GitHub</label>
+      <input id="cfg-token" type="password" placeholder="github_pat_…" autocapitalize="off" autocorrect="off" required>
+      <p>Fica salvo só neste celular. Se trocar de aparelho, cole de novo.</p>
+      <label for="cfg-gerador">Gerador de links de afiliado</label>
+      <input id="cfg-gerador" type="url" placeholder="https://…">
+      <p>Página que abre no botão "Gerar link". Deixe vazio para usar o padrão.</p>
+      <div class="linha2"><button class="btn principal" type="submit">Salvar e testar</button></div>
+    </form>
+  </section>
+</main>
+
+<nav role="tablist">
+  <button role="tab" aria-selected="true" data-aba="sugestoes">Sugestões<span class="badge" id="n-sug"></span></button>
+  <button role="tab" aria-selected="false" data-aba="postar">Para postar<span class="badge" id="n-post"></span></button>
+  <button role="tab" aria-selected="false" data-aba="vitrine">Vitrine</button>
+</nav>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ------------------------------------------------------------ util */
+const $ = s => document.querySelector(s);
+const fmt = v => (v ?? 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const LINK_ML = /https?:\/\/\S*(meli\.la|mercadolivre\.com|mercadolibre\.com)\S*/i;
+const GERADOR_PADRAO = "https://afiliados.mercadolivre.com.br";
+const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+const ler = (k, padrao) => { try { return JSON.parse(localStorage.getItem(k)) ?? padrao; } catch (e) { return padrao; } };
+
+function toast(msg) {
+  const t = $("#toast"); t.textContent = msg; t.classList.add("on");
+  clearTimeout(toast.h); toast.h = setTimeout(() => t.classList.remove("on"), 2600);
+}
+function haQuanto(ts) {
+  if (!ts) return "nunca";
+  const m = Math.round((Date.now() / 1000 - ts) / 60);
+  if (m < 1) return "agora"; if (m < 60) return `há ${m} min`;
+  const h = Math.round(m / 60); return h < 24 ? `há ${h} h` : `há ${Math.round(h / 24)} d`;
+}
+
+/* ------------------------------------------------------------ config */
+function cfgPadrao() {
+  const host = location.hostname.endsWith(".github.io") ? location.hostname.split(".")[0] : "";
+  const repo = location.pathname.split("/").filter(Boolean)[0] || "";
+  return { repo: host && repo && !repo.endsWith(".html") ? `${host}/${repo}` : "", token: "", gerador: "" };
+}
+let cfg = ler("achadinhos_cfg", cfgPadrao());
+const DEMO = new URLSearchParams(location.search).has("demo");
+
+/* ------------------------------------------------------------ GitHub API */
+async function gh(caminho, opcoes = {}) {
+  const r = await fetch(`https://api.github.com/repos/${cfg.repo}/${caminho}`, {
+    cache: "no-store", ...opcoes,
+    headers: { Authorization: `Bearer ${cfg.token}`, "X-GitHub-Api-Version": "2022-11-28", ...(opcoes.headers || {}) }
+  });
+  if (r.status === 401) throw new Error("Token inválido ou expirado. Gere outro e cole nas configurações.");
+  if (r.status === 404) throw new Error("Repositório não encontrado. Confira o nome e as permissões do token.");
+  if (!r.ok) throw new Error(`GitHub respondeu ${r.status}. Tente de novo em instantes.`);
+  return r;
+}
+async function lerDB() {
+  if (DEMO) return (await fetch("data/demo.json")).json();
+  const r = await gh("contents/data/db.json", { headers: { Accept: "application/vnd.github.raw+json" } });
+  return r.json();
+}
+function b64(txt) { return btoa(String.fromCharCode(...new TextEncoder().encode(txt))); }
+async function enviarAcao(obj) {
+  if (DEMO) return;
+  const nome = `${Date.now()}-${Math.random().toString(36).slice(2, 7)}.json`;
+  await gh(`contents/data/acoes/${nome}`, {
+    method: "PUT", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ message: `app: ${obj.acao}`, content: b64(JSON.stringify(obj)) })
+  });
+}
+
+/* ------------------------------------------------------------ estado */
+let db = null;
+let pend = ler("achadinhos_pend", {});   // ações enviadas que o robô ainda não aplicou
+const blobs = {};                        // vídeos já baixados para compartilhar
+
+function limparPendentes() {
+  const agora = Date.now();
+  for (const [k, p] of Object.entries(pend)) {
+    const aplicada =
+      (p.acao === "pular" || p.acao === "aprovar") ? !db.sugestoes.some(s => s.id === p.id)
+      : p.acao === "postado" ? db.ofertas.some(o => o.numero === p.numero && o.postado)
+      : p.acao === "remover" ? db.ofertas.some(o => o.numero === p.numero && !o.ativo)
+      : p.acao === "varrer" ? db.ultima_varredura * 1000 > p.ts : true;
+    if (aplicada || agora - p.ts > 20 * 60 * 1000) delete pend[k];
+  }
+  guardar("achadinhos_pend", pend);
+}
+
+async function carregar(silencioso) {
+  if (!cfg.repo || !cfg.token) { if (!DEMO) return abrirAba("config"); }
+  try {
+    db = await lerDB();
+    limparPendentes();
+    desenhar();
+  } catch (e) {
+    $("#status").textContent = "Sem conexão com o GitHub";
+    if (!silencioso) toast(e.message);
+  }
+  clearTimeout(carregar.h);
+  carregar.h = setTimeout(() => carregar(true), Object.keys(pend).length || aguardandoVideo() ? 15000 : 90000);
+}
+const aguardandoVideo = () => db && db.ofertas.some(o => o.ativo && !o.video && !o.video_expirado);
+
+/* ------------------------------------------------------------ telas */
+function desenhar() {
+  const buscando = Object.values(pend).some(p => p.acao === "varrer");
+  $("#btn-buscar").classList.toggle("girando", buscando);
+  $("#status").textContent = buscando ? "Buscando ofertas…" : `Última busca ${haQuanto(db.ultima_varredura)}`;
+
+  const escondidos = new Set(Object.values(pend).filter(p => p.id).map(p => p.id));
+  const sugs = db.sugestoes.filter(s => !escondidos.has(s.id));
+  $("#n-sug").textContent = sugs.length || "";
+  $("#aba-sugestoes").innerHTML = sugs.length ? sugs.map(cartaoSugestao).join("") :
+    `<div class="vazio"><strong>Nada para revisar agora</strong>O radar busca sozinho a cada 3 horas. Para buscar já, toque no botão de atualizar lá em cima.</div>`;
+
+  const aprovando = Object.values(pend).filter(p => p.acao === "aprovar");
+  const ativos = db.ofertas.filter(o => o.ativo && !(pend["r" + o.numero]));
+  const aPostar = ativos.filter(o => !o.postado && !pend["p" + o.numero]);
+  const postados = ativos.filter(o => o.postado || pend["p" + o.numero]);
+  $("#n-post").textContent = (aPostar.length + aprovando.length) || "";
+  $("#aba-postar").innerHTML =
+    aprovando.map(p => `<article class="cartao"><div class="topo">${foto(p.foto)}<div><div class="nome">${esc(p.titulo)}</div>
+      <div class="meta">Aprovado. Criando o vídeo, leva uns 2 minutos.</div></div></div></article>`).join("") +
+    aPostar.map(cartaoPostar).join("") +
+    (postados.length ? `<h2>Já postados, ainda na vitrine</h2>` + postados.map(cartaoPostado).join("") : "") +
+    (!aprovando.length && !aPostar.length && !postados.length
+      ? `<div class="vazio"><strong>Nenhum vídeo para postar</strong>Aprove uma sugestão e o vídeo aparece aqui.</div>` : "");
+  aPostar.forEach(prepararBlob);
+}
+
+const foto = (url, num) => `<div class="foto"><img src="${esc(url)}" alt="" loading="lazy">${num ? `<span class="num">#${num}</span>` : ""}</div>`;
+
+function cartaoSugestao(s) {
+  const off = s.desconto ? ` <span class="off">-${s.desconto}%</span>` : "";
+  return `<article class="cartao" data-id="${esc(s.id)}">
+    <div class="topo">${foto(s.foto)}<div>
+      <div class="retorno">${fmt(s.retorno)} <small>de retorno</small></div>
+      <div class="nome">${esc(s.titulo)}</div>
+      <div class="meta">${fmt(s.preco)}${off} · ${s.posicao}º mais vendido em ${esc(s.categoria)}</div>
+    </div></div>
+    <div class="linha2">
+      <a class="btn secundario" href="${esc(s.url)}" target="_blank" rel="noopener">Abrir produto</a>
+      <button class="btn secundario" data-gerar="${esc(s.url)}">Gerar link</button>
+    </div>
+    <div class="colar">
+      <input type="url" inputmode="url" placeholder="Cole o link de afiliado" aria-label="Link de afiliado de ${esc(s.titulo)}">
+      <button class="btn secundario" style="flex:0 0 auto" data-colar>Colar</button>
+    </div>
+    <details><summary>Encurtar o título que vai no vídeo</summary>
+      <input maxlength="70" data-curto placeholder="Ex.: Fone Bluetooth com cancelamento de ruído" aria-label="Título curto"></details>
+    <div class="linha2">
+      <button class="btn fantasma" data-pular>Pular</button>
+      <button class="btn principal" data-aprovar>Aprovar e criar vídeo</button>
+    </div>
+  </article>`;
+}
+
+function cartaoPostar(o) {
+  const pronto = !!o.video;
+  return `<article class="cartao" data-num="${o.numero}">
+    <div class="topo">${foto(o.foto, o.numero)}<div>
+      <div class="nome">${esc(o.titulo_curto || o.titulo)}</div>
+      <div class="meta">${fmt(o.preco)}${o.desconto ? ` <span class="off">-${o.desconto}%</span>` : ""}</div>
+    </div></div>
+    ${pronto ? `<video src="${esc(o.video)}?v=${Math.round(o.criado_em)}#t=3" controls playsinline preload="metadata"
+        onerror="this.outerHTML='<div class=gerando>O vídeo está sendo publicado. Toque em atualizar em 1 minuto.</div>'"></video>
+      <div class="linha2">
+        <button class="btn principal" data-compartilhar>Postar no TikTok</button>
+        <button class="btn secundario" data-legenda>Copiar legenda</button>
+      </div>
+      <div class="linha2">
+        <button class="btn fantasma" data-remover>Tirar da vitrine</button>
+        <button class="btn secundario" data-postado>Já postei</button>
+      </div>`
+    : `<div class="gerando">Criando o vídeo, leva uns 2 minutos.</div>`}
+  </article>`;
+}
+
+function cartaoPostado(o) {
+  return `<article class="cartao feito" data-num="${o.numero}"><div class="topo">${foto(o.foto, o.numero)}<div>
+    <div class="nome">${esc(o.titulo_curto || o.titulo)}</div>
+    <div class="meta">${fmt(o.preco)} · <span class="selo-ok">Postado</span></div>
+    <div class="linha2" style="margin-top:8px"><button class="btn fantasma" data-remover>Tirar da vitrine</button></div>
+  </div></div></article>`;
+}
+
+/* ------------------------------------------------------------ vídeo e legenda */
+async function prepararBlob(o) {
+  if (!o.video || blobs[o.numero]) return;
+  try {
+    const r = await fetch(`${o.video}?v=${Math.round(o.criado_em)}`);
+    if (r.ok) blobs[o.numero] = new File([await r.blob()], `achadinho-${o.numero}.mp4`, { type: "video/mp4" });
+  } catch (e) {}
+}
+async function compartilhar(o) {
+  const arq = blobs[o.numero];
+  try { await navigator.clipboard.writeText(o.legenda || ""); } catch (e) {}
+  if (arq && navigator.canShare && navigator.canShare({ files: [arq] })) {
+    try {
+      await navigator.share({ files: [arq] });
+      toast("Legenda copiada. No TikTok, é só colar.");
+    } catch (e) { /* usuário fechou a janela */ }
+    return;
+  }
+  const a = document.createElement("a");
+  a.href = `${o.video}?v=${Math.round(o.criado_em)}`; a.download = `achadinho-${o.numero}.mp4`; a.click();
+  toast(arq ? "Baixando o vídeo. A legenda já foi copiada." : "Ainda carregando o vídeo. Tente de novo em segundos.");
+}
+
+/* ------------------------------------------------------------ cliques */
+async function registrar(chave, obj, extra = {}) {
+  pend[chave] = { ...obj, ...extra, ts: Date.now() };
+  guardar("achadinhos_pend", pend);
+  desenhar();
+  try { await enviarAcao(obj); carregar(true); }
+  catch (e) { delete pend[chave]; guardar("achadinhos_pend", pend); desenhar(); toast(e.message); }
+}
+
+document.addEventListener("click", async ev => {
+  const b = ev.target.closest("button"); if (!b) return;
+  const card = b.closest("[data-id],[data-num]");
+  const sug = card?.dataset.id && db?.sugestoes.find(s => s.id === card.dataset.id);
+  const of = card?.dataset.num && db?.ofertas.find(o => o.numero === +card.dataset.num);
+
+  if (b.dataset.aba) return abrirAba(b.dataset.aba);
+  if (b.id === "btn-config") return abrirAba("config");
+  if (b.id === "btn-buscar") {
+    if (Object.values(pend).some(p => p.acao === "varrer")) return toast("Já estou buscando. Leva uns 3 minutos.");
+    toast("Buscando ofertas. Leva uns 3 minutos.");
+    return registrar("varrer", { acao: "varrer" });
+  }
+  if (b.dataset.gerar !== undefined) {
+    try { await navigator.clipboard.writeText(b.dataset.gerar); toast("Link do produto copiado. Cole no gerador."); } catch (e) {}
+    return window.open(cfg.gerador || GERADOR_PADRAO, "_blank", "noopener");
+  }
+  if (b.dataset.colar !== undefined) {
+    try { card.querySelector(".colar input").value = (await navigator.clipboard.readText()).trim(); }
+    catch (e) { toast("Toque e segure no campo para colar."); }
+    return;
+  }
+  if (b.dataset.pular !== undefined && sug) return registrar(sug.id, { acao: "pular", id: sug.id });
+  if (b.dataset.aprovar !== undefined && sug) {
+    const campo = card.querySelector(".colar input");
+    const achado = campo.value.match(LINK_ML);
+    card.querySelector(".erro-msg")?.remove();
+    if (!achado) {
+      campo.classList.add("erro");
+      campo.closest(".colar").insertAdjacentHTML("afterend", `<p class="erro-msg">Cole um link do Mercado Livre gerado no painel de afiliados.</p>`);
+      return campo.focus();
+    }
+    const curto = card.querySelector("[data-curto]").value.trim();
+    toast(`Aprovado. O vídeo fica pronto em uns 2 minutos.`);
+    return registrar(sug.id, { acao: "aprovar", id: sug.id, link: achado[0], titulo_curto: curto || undefined },
+      { titulo: curto || sug.titulo, foto: sug.foto });
+  }
+  if (b.dataset.compartilhar !== undefined && of) return compartilhar(of);
+  if (b.dataset.legenda !== undefined && of) {
+    try { await navigator.clipboard.writeText(of.legenda || ""); toast("Legenda copiada."); }
+    catch (e) { toast("Não consegui copiar. Toque e segure no texto."); }
+    return;
+  }
+  if (b.dataset.postado !== undefined && of) { toast(`Nº ${of.numero} marcado como postado.`); return registrar("p" + of.numero, { acao: "postado", numero: of.numero }); }
+  if (b.dataset.remover !== undefined && of) {
+    if (!confirm(`Tirar o nº ${of.numero} da vitrine? Quem procurar por ele não vai mais achar.`)) return;
+    toast(`Nº ${of.numero} saiu da vitrine.`);
+    return registrar("r" + of.numero, { acao: "remover", numero: of.numero });
+  }
+});
+document.addEventListener("input", ev => { if (ev.target.matches(".colar input")) ev.target.classList.remove("erro"); });
+
+function abrirAba(nome) {
+  if (nome === "vitrine") return window.open("./", "_blank", "noopener");
+  document.querySelectorAll(".aba").forEach(a => a.classList.toggle("ativa", a.id === "aba-" + nome));
+  document.querySelectorAll("nav button").forEach(n => n.setAttribute("aria-selected", n.dataset.aba === nome));
+  if (nome === "config") {
+    $("#cfg-repo").value = cfg.repo; $("#cfg-token").value = cfg.token; $("#cfg-gerador").value = cfg.gerador || "";
+    $("#status").textContent = "Configurações";
+  }
+  window.scrollTo(0, 0);
+}
+
+$("#form-config").addEventListener("submit", async ev => {
+  ev.preventDefault();
+  cfg = { repo: $("#cfg-repo").value.trim().replace(/^https?:\/\/github\.com\//, ""), token: $("#cfg-token").value.trim(), gerador: $("#cfg-gerador").value.trim() };
+  try {
+    await gh("");
+    guardar("achadinhos_cfg", cfg);
+    toast("Conectado ao GitHub.");
+    abrirAba("sugestoes"); carregar();
+  } catch (e) { toast(e.message); }
+});
+document.addEventListener("visibilitychange", () => { if (!document.hidden) carregar(true); });
+
+carregar();
+</script>
+</body>
+</html>

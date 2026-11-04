@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Achadinhos</title>
+<meta name="description" content="Os achadinhos dos vídeos, com o link direto para comprar.">
+<meta name="theme-color" content="#1B1035">
+<link rel="icon" href="icone-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --noite: #1B1035;
+    --tinta: #07060D;
+    --achado: #FFD60A;
+    --selo: #FF3B4E;
+    --giz: #F4F2FA;
+    --lavanda: #A59DC0;
+    --linha: rgba(244, 242, 250, .12);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; min-height: 100dvh; color: var(--giz);
+    font: 500 16px/1.5 Poppins, system-ui, sans-serif;
+    background: linear-gradient(180deg, var(--noite) 0%, var(--tinta) 70%) fixed, var(--tinta);
+  }
+  main { max-width: 520px; margin: 0 auto; padding: max(28px, env(safe-area-inset-top)) 16px 48px; }
+
+  .perfil { margin: 0 0 28px; font-weight: 600; color: var(--lavanda); font-size: 15px; }
+
+  /* busca pelo número: o coração da página */
+  .busca label { display: block; font-size: 26px; line-height: 1.2; font-weight: 700; margin-bottom: 14px; }
+  .campo {
+    display: flex; align-items: center; gap: 4px;
+    background: var(--achado); color: var(--noite);
+    border-radius: 999px; padding: 6px 28px;
+  }
+  .campo span { font-size: 64px; font-weight: 800; line-height: 1; }
+  .campo input {
+    flex: 1; min-width: 0; border: 0; background: transparent; color: var(--noite);
+    font: 800 72px/1.1 Poppins, sans-serif; letter-spacing: -1px; padding: 4px 0;
+  }
+  .campo input::placeholder { color: rgba(27, 16, 53, .3); }
+  .campo input:focus { outline: none; }
+  .campo:focus-within { box-shadow: 0 0 0 4px var(--tinta), 0 0 0 7px var(--achado); }
+  .dica { margin: 12px 4px 0; color: var(--lavanda); font-size: 14px; }
+
+  .achado { margin-top: 28px; }
+  .achado:empty { display: none; }
+
+  h2 { font-size: 18px; font-weight: 700; margin: 40px 0 6px; }
+
+  ol { list-style: none; margin: 0; padding: 0; }
+  .item a {
+    display: grid; grid-template-columns: 84px 1fr; gap: 14px; align-items: center;
+    padding: 14px 0; border-bottom: 1px solid var(--linha);
+    color: inherit; text-decoration: none;
+  }
+  .item a:focus-visible { outline: 3px solid var(--achado); outline-offset: 4px; border-radius: 12px; }
+  .foto { position: relative; width: 84px; height: 84px; border-radius: 18px; background: #fff; overflow: hidden; }
+  .foto img { width: 100%; height: 100%; object-fit: contain; padding: 6px; }
+  .num {
+    position: absolute; left: -2px; bottom: -2px; padding: 0 9px;
+    background: var(--achado); color: var(--noite); font-weight: 800; font-size: 14px;
+    border-radius: 0 12px 0 0; line-height: 24px;
+  }
+  .nome { font-weight: 600; font-size: 15px; line-height: 1.35;
+          display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .precos { margin-top: 4px; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .preco { color: var(--achado); font-weight: 800; font-size: 19px; }
+  .de { color: var(--lavanda); font-size: 13px; text-decoration: line-through; text-decoration-color: var(--selo); }
+  .off { background: var(--selo); color: #fff; font-weight: 700; font-size: 12px; border-radius: 6px; padding: 0 6px; }
+
+  /* destaque do número buscado */
+  .grande a {
+    display: block; background: var(--giz); color: var(--noite); border-radius: 28px;
+    padding: 18px; text-decoration: none; border: 0;
+  }
+  .grande .foto { width: 100%; height: auto; aspect-ratio: 1; background: #fff; border-radius: 18px; }
+  .grande .foto img { padding: 18px; }
+  .grande .num { font-size: 22px; line-height: 38px; padding: 0 16px; border-radius: 0 18px 0 0; }
+  .grande .nome { font-size: 18px; margin-top: 14px; -webkit-line-clamp: 3; }
+  .grande .preco { color: var(--noite); font-size: 34px; }
+  .grande .de { color: #6b6385; font-size: 15px; }
+  .comprar {
+    display: block; margin-top: 16px; text-align: center; background: var(--noite); color: var(--achado);
+    font-weight: 700; font-size: 18px; padding: 16px; border-radius: 999px;
+  }
+  .vazio { color: var(--lavanda); padding: 18px 4px; }
+  .rodape { margin-top: 36px; color: var(--lavanda); font-size: 12px; line-height: 1.6; }
+  @media (prefers-reduced-motion: no-preference) {
+    .grande { animation: surge .35s cubic-bezier(.2, 1.4, .4, 1); }
+    @keyframes surge { from { transform: scale(.94); opacity: 0; } }
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="perfil" id="perfil"></p>
+
+  <form class="busca" onsubmit="event.preventDefault(); document.getElementById('q').blur();">
+    <label for="q">Qual número apareceu no vídeo?</label>
+    <div class="campo">
+      <span aria-hidden="true">#</span>
+      <input id="q" inputmode="numeric" pattern="[0-9]*" autocomplete="off" placeholder="23" aria-describedby="dica">
+    </div>
+    <p class="dica" id="dica">Digite o número e toque no produto para comprar no Mercado Livre.</p>
+  </form>
+
+  <section class="achado" id="achado" aria-live="polite"></section>
+
+  <h2 id="titulo-lista">Achadinhos de agora</h2>
+  <ol id="lista" aria-labelledby="titulo-lista"></ol>
+
+  <p class="rodape">Os links são de afiliado: comprando por eles, eu ganho uma comissão e você não paga nada a mais.
+    Preços e estoque podem mudar a qualquer momento no Mercado Livre.</p>
+</main>
+
+<script>
+const fmt = v => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+let ofertas = [];
+
+function cartao(o, grande) {
+  const de = o.desconto && o.original ? `<span class="de">${fmt(o.original)}</span><span class="off">-${o.desconto}%</span>` : "";
+  return `<li class="item${grande ? " grande" : ""}"><a href="${esc(o.link)}" rel="nofollow sponsored noopener">
+    <div class="foto"><img src="${esc(o.foto)}" alt="" loading="lazy"><span class="num">#${o.numero}</span></div>
+    <div><div class="nome">${esc(o.titulo_curto || o.titulo)}</div>
+    <div class="precos"><span class="preco">${fmt(o.preco)}</span>${de}</div>
+    ${grande ? '<span class="comprar">Ver no Mercado Livre</span>' : ""}</div></a></li>`;
+}
+
+function buscar() {
+  const n = parseInt(document.getElementById("q").value, 10);
+  const alvo = document.getElementById("achado");
+  if (!n) { alvo.innerHTML = ""; return; }
+  const o = ofertas.find(x => x.numero === n);
+  alvo.innerHTML = o ? `<ol>${cartao(o, true)}</ol>`
+    : `<p class="vazio">O nº ${n} não está mais disponível: a oferta acabou ou o preço mudou. Veja os achadinhos de agora logo abaixo.</p>`;
+  history.replaceState(null, "", n ? `#${n}` : location.pathname);
+}
+
+fetch("vitrine.json?t=" + Date.now()).then(r => r.json()).then(d => {
+  ofertas = d.ofertas || [];
+  document.getElementById("perfil").textContent = d.perfil || "";
+  document.getElementById("lista").innerHTML = ofertas.length
+    ? ofertas.map(o => cartao(o, false)).join("")
+    : '<li class="vazio">Nenhum achadinho no ar agora. Volte daqui a pouco.</li>';
+  const q = document.getElementById("q");
+  q.addEventListener("input", buscar);
+  const h = parseInt(location.hash.slice(1), 10);
+  if (h) { q.value = h; buscar(); }
+}).catch(() => {
+  document.getElementById("lista").innerHTML = '<li class="vazio">Não deu para carregar as ofertas. Confira sua internet e recarregue a página.</li>';
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "Painel Achadinhos",
+  "short_name": "Achadinhos",
+  "start_url": "painel.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07060D",
+  "theme_color": "#1B1035",
+  "icons": [
+    { "src": "icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

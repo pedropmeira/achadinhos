@@ -1,0 +1,34 @@
+{
+  "nome_perfil": "Achadinhos do Matheus",
+  "ml_redirect_uri": "https://www.google.com.br",
+
+  "_obs_categorias": "Comissao em decimal (0.08 = 8%). Valores ILUSTRATIVOS: troque pela tabela do seu painel de afiliados. Lista de IDs: https://api.mercadolibre.com/sites/MLB/categories",
+  "categorias": {
+    "MLB1055": { "nome": "Celulares e Smartphones", "comissao": 0.05 },
+    "MLB1000": { "nome": "Eletrônicos, Áudio e Vídeo", "comissao": 0.08 },
+    "MLB1648": { "nome": "Informática", "comissao": 0.07 },
+    "MLB5726": { "nome": "Eletrodomésticos", "comissao": 0.08 },
+    "MLB1574": { "nome": "Casa, Móveis e Decoração", "comissao": 0.10 },
+    "MLB1246": { "nome": "Beleza e Cuidado Pessoal", "comissao": 0.12 }
+  },
+
+  "min_retorno_reais": 10,
+  "min_desconto_pct": 0,
+  "max_sugestoes_por_varredura": 10,
+  "dias_para_repetir": 7,
+  "sugestao_expira_dias": 2,
+
+  "oferta_valida_dias": 15,
+  "tolerancia_aumento_pct": 10,
+  "apagar_videos_apos_dias": 20,
+
+  "hashtags": ["#achadinhos", "#achadinhosmercadolivre", "#ofertas", "#promoção"],
+
+  "video": {
+    "duracao_s": 7,
+    "cor_fundo_topo": "#1B1035",
+    "cor_fundo_base": "#07060D",
+    "cor_destaque": "#FFD60A",
+    "cor_desconto": "#FF3B4E"
+  }
+}
