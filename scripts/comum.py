@@ -96,33 +96,66 @@ class ML_API:
             if r.status_code == 429:
                 time.sleep(5)
                 continue
-            if r.status_code in (403, 404):
+            if r.status_code >= 400:
+                self._registrar_erro(caminho, r)
                 return None
-            r.raise_for_status()
             return r.json()
         return None
 
+    erros_vistos = set()
+
+    def _registrar_erro(self, caminho, r):
+        """Mostra no log o primeiro erro de cada tipo de endpoint (para diagnóstico)."""
+        tipo = caminho.split("/")[1] + ("/items" if caminho.endswith("/items") or "/items?" in caminho else "")
+        chave = (tipo, r.status_code)
+        if chave not in self.erros_vistos:
+            self.erros_vistos.add(chave)
+            log(f"  [API] {r.status_code} em /{tipo}: {r.text[:200]}")
+
+    motivos = {}
+
+    def _motivo(self, m):
+        self.motivos[m] = self.motivos.get(m, 0) + 1
+        return None
+
+    def _preco_por_anuncios(self, prod_id):
+        """Plano B: menor preço entre os anúncios ativos do produto de catálogo."""
+        j = self.get(f"/products/{prod_id}/items?limit=10")
+        itens = (j or {}).get("results") or []
+        itens = [x for x in itens if x.get("price")]
+        if not itens:
+            return None
+        x = min(itens, key=lambda x: x["price"])
+        return x["price"], x.get("original_price")
+
     def detalhes(self, id_, tipo):
         """Título, preço, preço original, foto e URL de um produto (catálogo) ou anúncio."""
-        if tipo == "PRODUCT":
+        if tipo in ("PRODUCT", None, ""):
             p = self.get(f"/products/{id_}")
-            if not p:
-                return None
-            bb = p.get("buy_box_winner") or {}
-            if not bb.get("price"):
-                return None
-            fotos = p.get("pictures") or [{}]
-            return {"id": id_, "tipo": tipo, "titulo": p.get("name", ""),
-                    "preco": bb["price"], "original": bb.get("original_price"),
-                    "foto": fotos[0].get("url"),
-                    "url": p.get("permalink") or f"https://www.mercadolivre.com.br/p/{id_}"}
-        if tipo == "ITEM":
+            if p:
+                bb = p.get("buy_box_winner") or {}
+                preco, original = bb.get("price"), bb.get("original_price")
+                if not preco:
+                    alt = self._preco_por_anuncios(id_)
+                    if not alt:
+                        return self._motivo("produto sem preço")
+                    preco, original = alt
+                fotos = p.get("pictures") or [{}]
+                return {"id": id_, "tipo": "PRODUCT", "titulo": p.get("name", ""),
+                        "preco": preco, "original": original,
+                        "foto": fotos[0].get("url") or fotos[0].get("secure_url"),
+                        "url": p.get("permalink") or f"https://www.mercadolivre.com.br/p/{id_}"}
+            if tipo == "PRODUCT":
+                return self._motivo("produto inacessível")
+        if tipo in ("ITEM", None, ""):
             i = self.get(f"/items/{id_}")
-            if not i or i.get("status") != "active":
-                return None
+            if not i:
+                return self._motivo("anúncio inacessível")
+            if i.get("status") != "active":
+                return self._motivo("anúncio inativo")
             fotos = i.get("pictures") or [{}]
-            return {"id": id_, "tipo": tipo, "titulo": i.get("title", ""),
+            return {"id": id_, "tipo": "ITEM", "titulo": i.get("title", ""),
                     "preco": i.get("price"), "original": i.get("original_price"),
                     "foto": fotos[0].get("secure_url") or i.get("thumbnail"),
                     "url": i.get("permalink")}
-        return None
+        return self._motivo(f"tipo desconhecido: {tipo}")

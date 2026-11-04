@@ -22,7 +22,8 @@ def varrer(ml, cfg, db):
     for cat_id, info in cfg["categorias"].items():
         h = ml.get(f"/highlights/MLB/category/{cat_id}")
         itens = (h or {}).get("content", [])
-        log(f"{info['nome']}: {len(itens)} mais vendidos")
+        tipos = sorted({str(c.get("type")) for c in itens})
+        log(f"{info['nome']}: {len(itens)} mais vendidos (tipos: {', '.join(tipos) or '-'})")
         for pos, c in enumerate(itens, 1):
             cid = c.get("id")
             if (not cid or cid in vistos_agora or cid in ja_listados
@@ -33,13 +34,18 @@ def varrer(ml, cfg, db):
             time.sleep(0.15)
             if not d or not d.get("preco"):
                 continue
+            ml.motivos["lido com sucesso"] = ml.motivos.get("lido com sucesso", 0) + 1
             d.update(categoria=info["nome"], comissao=info["comissao"], posicao=pos,
                      retorno=round(d["preco"] * info["comissao"], 2),
                      desconto=desconto(d["preco"], d.get("original")), sugerido_em=agora)
-            if (d["retorno"] >= cfg.get("min_retorno_reais", 0)
-                    and d["desconto"] >= cfg.get("min_desconto_pct", 0)):
+            if d["retorno"] < cfg.get("min_retorno_reais", 0):
+                ml.motivos["retorno abaixo do mínimo"] = ml.motivos.get("retorno abaixo do mínimo", 0) + 1
+            elif d["desconto"] < cfg.get("min_desconto_pct", 0):
+                ml.motivos["desconto abaixo do mínimo"] = ml.motivos.get("desconto abaixo do mínimo", 0) + 1
+            else:
                 candidatos.append(d)
 
+    log("Diagnóstico: " + (", ".join(f"{k}: {v}" for k, v in ml.motivos.items()) or "nenhum item analisado"))
     candidatos.sort(key=lambda d: d["retorno"], reverse=True)
     novos = candidatos[:cfg.get("max_sugestoes_por_varredura", 10)]
     for d in novos:
