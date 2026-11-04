@@ -1,0 +1,71 @@
+name: Achadinhos
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+  push:
+    paths: ["data/acoes/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: db
+  cancel-in-progress: false
+
+jobs:
+  rodar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: |
+          pip install -q requests pillow
+          sudo apt-get install -y -qq ffmpeg > /dev/null
+
+      - name: Aplicar ações do app
+        id: acoes
+        env:
+          EVENTO: ${{ github.event_name }}
+        run: cd scripts && python processar.py
+
+      - name: Varrer Mercado Livre
+        if: steps.acoes.outputs.varrer == 'true'
+        env:
+          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
+          ML_REFRESH_TOKEN: ${{ secrets.ML_REFRESH_TOKEN }}
+        run: cd scripts && python radar.py
+
+      - name: Guardar token renovado do ML
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -f NOVO_REFRESH_TOKEN ]; then
+            gh secret set ML_REFRESH_TOKEN < NOVO_REFRESH_TOKEN
+            rm NOVO_REFRESH_TOKEN
+          fi
+
+      - name: Gerar vídeos
+        run: cd scripts && python render.py
+
+      - name: Publicar
+        run: |
+          git config user.name "achadinhos-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A docs data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "bot: atualização $(date -u +%d/%m\ %H:%M)"
+          for i in 1 2 3; do
+            git pull -q --rebase && git push -q && exit 0
+            sleep 5
+          done
+          exit 1
