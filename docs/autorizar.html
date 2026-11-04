@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autorizar Mercado Livre</title>
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --noite: #1B1035; --tinta: #07060D; --placa: #241845; --achado: #FFD60A; --selo: #FF3B4E; --giz: #F4F2FA; --lavanda: #A59DC0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100dvh; background: var(--tinta); color: var(--giz); font: 500 16px/1.5 Poppins, system-ui, sans-serif; }
+  main { max-width: 520px; margin: 0 auto; padding: 32px 16px; }
+  h1 { font-size: 24px; line-height: 1.25; margin: 0 0 8px; }
+  p { color: var(--lavanda); margin: 0 0 16px; }
+  .code { background: var(--placa); border-radius: 18px; padding: 16px; font-weight: 700; word-break: break-all; margin: 20px 0 12px; color: var(--achado); }
+  .btn { display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 14px; font: 700 16px Poppins, sans-serif;
+         border: 0; width: 100%; margin-top: 10px; text-decoration: none; cursor: pointer; }
+  .principal { background: var(--achado); color: var(--noite); }
+  .secundario { background: var(--placa); color: var(--giz); }
+  .erro { color: var(--selo); }
+  ol { padding-left: 20px; color: var(--lavanda); } li { margin-bottom: 6px; }
+  :focus-visible { outline: 3px solid var(--achado); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<main id="m"></main>
+<script>
+const q = new URLSearchParams(location.search);
+const code = q.get("code");
+const m = document.getElementById("m");
+const partes = location.pathname.split("/").filter(Boolean);
+const dono = location.hostname.split(".")[0];
+const actions = `https://github.com/${dono}/${partes[0] || ""}/actions/workflows/autorizar.yml`;
+
+if (code) {
+  m.innerHTML = `
+    <h1>Mercado Livre autorizado</h1>
+    <p>Falta só entregar este código ao robô. Ele vale por poucos minutos.</p>
+    <div class="code" id="c"></div>
+    <button class="btn principal" id="copiar">Copiar código</button>
+    <a class="btn secundario" href="${actions}" target="_blank" rel="noopener">Abrir o GitHub Actions</a>
+    <ol style="margin-top:20px">
+      <li>No GitHub, toque em <b>Run workflow</b>.</li>
+      <li>Cole o código no campo e confirme.</li>
+      <li>Espere o ✓ verde (cerca de 30 segundos).</li>
+    </ol>`;
+  document.getElementById("c").textContent = code;
+  document.getElementById("copiar").onclick = async e => {
+    try { await navigator.clipboard.writeText(code); e.target.textContent = "Código copiado"; }
+    catch (_) { e.target.textContent = "Toque e segure no código para copiar"; }
+  };
+} else {
+  const motivo = q.get("error_description") || q.get("error");
+  m.innerHTML = `<h1 class="${motivo ? "erro" : ""}">${motivo ? "O Mercado Livre não autorizou" : "Nenhum código recebido"}</h1>
+    <p id="d">Abra de novo o link de autorização e toque em Permitir.</p>`;
+  if (motivo) document.getElementById("d").textContent = `Motivo informado: ${motivo}. Abra o link de autorização de novo.`;
+}
+</script>
+</body>
+</html>
