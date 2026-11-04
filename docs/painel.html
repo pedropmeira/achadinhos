@@ -274,7 +274,7 @@ function cartaoSugestao(s) {
     <div class="topo">${foto(s.foto)}<div>
       <div class="retorno">${fmt(s.retorno)} <small>de retorno</small></div>
       <div class="nome">${esc(s.titulo)}</div>
-      <div class="meta">${fmt(s.preco)}${off} · ${s.posicao}º mais vendido em ${esc(s.categoria)}</div>
+      <div class="meta">${fmt(s.preco)}${off} · ${s.posicao}º mais vendido em ${esc(s.categoria)}${s.nota != null ? ` · nota ${s.nota}` : ""}</div>
     </div></div>
     <div class="linha2">
       <a class="btn secundario" href="${esc(s.url)}" target="_blank" rel="noopener">Abrir produto</a>
