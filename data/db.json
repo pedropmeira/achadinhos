@@ -1,21 +1,6 @@
 {
- "proximo_numero": 1,
+ "proximo_numero": 2,
  "sugestoes": [
-  {
-   "id": "MLB1055308835",
-   "tipo": "PRODUCT",
-   "titulo": "iPhone 17 de 256 GB - Lavanda - Distribuidor Autorizado",
-   "preco": 6332.22,
-   "original": 7999,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_896332-MLA95400062457_102025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB1055308835",
-   "categoria": "Celulares e Smartphones",
-   "comissao": 0.05,
-   "posicao": 5,
-   "retorno": 316.61,
-   "desconto": 21,
-   "sugerido_em": 1793811400.557369
-  },
   {
    "id": "MLB1040287790",
    "tipo": "PRODUCT",
@@ -152,7 +137,31 @@
    "sugerido_em": 1793811400.557369
   }
  ],
- "ofertas": [],
+ "ofertas": [
+  {
+   "id": "MLB1055308835",
+   "tipo": "PRODUCT",
+   "titulo": "iPhone 17 de 256 GB - Lavanda - Distribuidor Autorizado",
+   "preco": 6332.22,
+   "original": 7999,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_896332-MLA95400062457_102025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB1055308835",
+   "categoria": "Celulares e Smartphones",
+   "comissao": 0.05,
+   "posicao": 5,
+   "retorno": 316.61,
+   "desconto": 21,
+   "sugerido_em": 1793811400.557369,
+   "numero": 1,
+   "link": "https://meli.la/1Poh6B2",
+   "preco_postado": 6332.22,
+   "criado_em": 1793811829.0351005,
+   "ativo": true,
+   "postado": false,
+   "video": "videos/1.mp4",
+   "legenda": "Achadinho #1 🔥 iPhone 17 de 256 GB - Lavanda - Distribuidor Autorizado de R$ 7.999,00 por R$ 6.332,22 (21% OFF). Link na bio, procura o nº 1 🔗 #achadinhos #achadinhosmercadolivre #ofertas #promoção"
+  }
+ ],
  "vistos": {
   "MLB1055308835": 1793811400.557369,
   "MLB1040287790": 1793811400.557369,
