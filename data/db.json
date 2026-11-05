@@ -1,5 +1,5 @@
 {
- "proximo_numero": 4,
+ "proximo_numero": 5,
  "sugestoes": [
   {
    "id": "MLB24656724",
@@ -16,22 +16,6 @@
    "desconto": 39,
    "sugerido_em": 1793813228.4676464,
    "nota": 88
-  },
-  {
-   "id": "MLB33997846",
-   "tipo": "PRODUCT",
-   "titulo": "Controle Sony CFI-ZCT1W Sem Fio White Ps5",
-   "preco": 409,
-   "original": 699,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_799992-MLA118064405240_102026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB33997846",
-   "categoria": "Games",
-   "comissao": 0.12,
-   "posicao": 10,
-   "retorno": 49.08,
-   "desconto": 41,
-   "sugerido_em": 1793813228.4676464,
-   "nota": 81
   },
   {
    "id": "MLB28717101",
@@ -1216,6 +1200,30 @@
   }
  ],
  "ofertas": [
+  {
+   "id": "MLB33997846",
+   "tipo": "PRODUCT",
+   "titulo": "Controle Sony CFI-ZCT1W Sem Fio White Ps5",
+   "preco": 409,
+   "original": 699,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_799992-MLA118064405240_102026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB33997846",
+   "categoria": "Games",
+   "comissao": 0.12,
+   "posicao": 10,
+   "retorno": 49.08,
+   "desconto": 41,
+   "sugerido_em": 1793813228.4676464,
+   "nota": 81,
+   "numero": 4,
+   "link": "https://meli.la/1rziKVy",
+   "preco_postado": 409,
+   "criado_em": 1793877117.2286263,
+   "ativo": true,
+   "postado": false,
+   "video": "videos/4.mp4",
+   "legenda": "Achadinho #4 🔥 Controle Sony CFI-ZCT1W Sem Fio White Ps5 de R$ 699,00 por R$ 409,00 (41% OFF). Link na bio, procura o nº 4 🔗 #achadinhos #achadinhosmercadolivre #ofertas #promoção"
+  },
   {
    "id": "MLB19140415",
    "tipo": "PRODUCT",
