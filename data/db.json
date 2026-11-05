@@ -1,5 +1,5 @@
 {
- "proximo_numero": 7,
+ "proximo_numero": 8,
  "sugestoes": [
   {
    "id": "MLB24656724",
@@ -690,22 +690,6 @@
    "nota": 47
   },
   {
-   "id": "MLB70449712",
-   "tipo": "PRODUCT",
-   "titulo": "Body Splash Masculino Vibration 200ml - Primacial Perfume Bergamota Fresco",
-   "preco": 41.61,
-   "original": 69.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_617155-MLA118231595864_102026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB70449712",
-   "categoria": "Beleza e Cuidado Pessoal",
-   "comissao": 0.16,
-   "posicao": 10,
-   "retorno": 6.66,
-   "desconto": 40,
-   "sugerido_em": 1793876898.668994,
-   "nota": 47
-  },
-  {
    "id": "MLB42105593",
    "tipo": "PRODUCT",
    "titulo": "Fralda Protect & Sec 90 Unidades Tamanho Médio Personal Baby",
@@ -1169,6 +1153,30 @@
  ],
  "ofertas": [
   {
+   "id": "MLB70449712",
+   "tipo": "PRODUCT",
+   "titulo": "Body Splash Masculino Vibration 200ml - Primacial Perfume Bergamota Fresco",
+   "preco": 41.61,
+   "original": 69.9,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_617155-MLA118231595864_102026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB70449712",
+   "categoria": "Beleza e Cuidado Pessoal",
+   "comissao": 0.16,
+   "posicao": 10,
+   "retorno": 6.66,
+   "desconto": 40,
+   "sugerido_em": 1793876898.668994,
+   "nota": 47,
+   "numero": 7,
+   "link": "https://meli.la/2u3x1LR",
+   "preco_postado": 41.61,
+   "criado_em": 1793877582.8812034,
+   "ativo": true,
+   "postado": false,
+   "video": "videos/7.mp4",
+   "legenda": "Achadinho #7 🔥 Body Splash Masculino Vibration 200ml - Primacial Perfume Bergamota Fresco de R$ 69,90 por R$ 41,61 (40% OFF). Link na bio, procura o nº 7 🔗 #achadinhos #achadinhosmercadolivre #ofertas #promoção"
+  },
+  {
    "id": "MLB34075437",
    "tipo": "PRODUCT",
    "titulo": "Ring Light LED Lumi de 33cm com Tripé 2,10m e Luz Ajustável para Maquiagem e Vídeos",
@@ -1307,7 +1315,7 @@
    "preco_postado": 6332.22,
    "criado_em": 1793811829.0351005,
    "ativo": true,
-   "postado": false,
+   "postado": true,
    "video": "videos/1.mp4",
    "legenda": "Achadinho #1 🔥 iPhone 17 de 256 GB - Lavanda - Distribuidor Autorizado de R$ 7.999,00 por R$ 6.332,22 (21% OFF). Link na bio, procura o nº 1 🔗 #achadinhos #achadinhosmercadolivre #ofertas #promoção"
   }
