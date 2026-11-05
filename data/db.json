@@ -1,5 +1,5 @@
 {
- "proximo_numero": 5,
+ "proximo_numero": 6,
  "sugestoes": [
   {
    "id": "MLB24656724",
@@ -415,22 +415,6 @@
    "retorno": 35.73,
    "desconto": 28,
    "sugerido_em": 1793860811.1389418,
-   "nota": 60
-  },
-  {
-   "id": "MLB24473062",
-   "tipo": "PRODUCT",
-   "titulo": "Controle GameSir G7 SE com Fio para Xbox One Series S X PC Hall Effect Botões Mecânicos Cor Branco",
-   "preco": 239,
-   "original": 459.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_876806-MLA99469873464_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB24473062",
-   "categoria": "Games",
-   "comissao": 0.12,
-   "posicao": 19,
-   "retorno": 28.68,
-   "desconto": 48,
-   "sugerido_em": 1793876898.668994,
    "nota": 60
   },
   {
@@ -1200,6 +1184,30 @@
   }
  ],
  "ofertas": [
+  {
+   "id": "MLB24473062",
+   "tipo": "PRODUCT",
+   "titulo": "Controle GameSir G7 SE com Fio para Xbox One Series S X PC Hall Effect Botões Mecânicos Cor Branco",
+   "preco": 239,
+   "original": 459.9,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_876806-MLA99469873464_112025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB24473062",
+   "categoria": "Games",
+   "comissao": 0.12,
+   "posicao": 19,
+   "retorno": 28.68,
+   "desconto": 48,
+   "sugerido_em": 1793876898.668994,
+   "nota": 60,
+   "numero": 5,
+   "link": "https://meli.la/32PJwRM",
+   "preco_postado": 239,
+   "criado_em": 1793877153.7032928,
+   "ativo": true,
+   "postado": false,
+   "video": "videos/5.mp4",
+   "legenda": "Achadinho #5 🔥 Controle GameSir G7 SE com Fio para Xbox One Series S X PC Hall Effect Botões Me de R$ 459,90 por R$ 239,00 (48% OFF). Link na bio, procura o nº 5 🔗 #achadinhos #achadinhosmercadolivre #ofertas #promoção"
+  },
   {
    "id": "MLB33997846",
    "tipo": "PRODUCT",
