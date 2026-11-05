@@ -1,5 +1,5 @@
 {
- "proximo_numero": 6,
+ "proximo_numero": 7,
  "sugestoes": [
   {
    "id": "MLB24656724",
@@ -770,22 +770,6 @@
    "nota": 45
   },
   {
-   "id": "MLB34075437",
-   "tipo": "PRODUCT",
-   "titulo": "Ring Light LED Lumi de 33cm com Tripé 2,10m e Luz Ajustável para Maquiagem e Vídeos",
-   "preco": 102,
-   "original": 279.98,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_903482-MLA99461549278_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB34075437",
-   "categoria": "Câmeras e Acessórios",
-   "comissao": 0.05,
-   "posicao": 16,
-   "retorno": 5.1,
-   "desconto": 64,
-   "sugerido_em": 1793876898.668994,
-   "nota": 43
-  },
-  {
    "id": "MLB34506613",
    "tipo": "PRODUCT",
    "titulo": "Mangueira De Jardim 50m Metros Com Esguicho Trançada Reforçada Flexível 7/16 Anti Dobra Irrigação Quintal Poço Lavagem Durável Marqs Home",
@@ -1184,6 +1168,30 @@
   }
  ],
  "ofertas": [
+  {
+   "id": "MLB34075437",
+   "tipo": "PRODUCT",
+   "titulo": "Ring Light LED Lumi de 33cm com Tripé 2,10m e Luz Ajustável para Maquiagem e Vídeos",
+   "preco": 102,
+   "original": 279.98,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_903482-MLA99461549278_112025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB34075437",
+   "categoria": "Câmeras e Acessórios",
+   "comissao": 0.05,
+   "posicao": 16,
+   "retorno": 5.1,
+   "desconto": 64,
+   "sugerido_em": 1793876898.668994,
+   "nota": 43,
+   "numero": 6,
+   "link": "https://meli.la/1auazoG",
+   "preco_postado": 102,
+   "criado_em": 1793877209.9154575,
+   "ativo": true,
+   "postado": false,
+   "video": "videos/6.mp4",
+   "legenda": "Achadinho #6 🔥 Ring Light LED Lumi de 33cm com Tripé 2,10m e Luz Ajustável para Maquiagem e Víd de R$ 279,98 por R$ 102,00 (64% OFF). Link na bio, procura o nº 6 🔗 #achadinhos #achadinhosmercadolivre #ofertas #promoção"
+  },
   {
    "id": "MLB24473062",
    "tipo": "PRODUCT",
