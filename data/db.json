@@ -1,5 +1,5 @@
 {
- "proximo_numero": 3,
+ "proximo_numero": 4,
  "sugestoes": [
   {
    "id": "MLB24656724",
@@ -16,22 +16,6 @@
    "desconto": 39,
    "sugerido_em": 1793813228.4676464,
    "nota": 88
-  },
-  {
-   "id": "MLB19140415",
-   "tipo": "PRODUCT",
-   "titulo": "Suplemento Whey Isolate Protein Fuse 1,8kg sabor Morango Dark Lab",
-   "preco": 179.9,
-   "original": 699.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_989007-MLA99405715766_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB19140415",
-   "categoria": "Esportes e Fitness",
-   "comissao": 0.16,
-   "posicao": 5,
-   "retorno": 28.78,
-   "desconto": 74,
-   "sugerido_em": 1793813228.4676464,
-   "nota": 83
   },
   {
    "id": "MLB33997846",
@@ -1232,6 +1216,30 @@
   }
  ],
  "ofertas": [
+  {
+   "id": "MLB19140415",
+   "tipo": "PRODUCT",
+   "titulo": "Suplemento Whey Isolate Protein Fuse 1,8kg sabor Morango Dark Lab",
+   "preco": 179.9,
+   "original": 699.9,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_989007-MLA99405715766_112025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB19140415",
+   "categoria": "Esportes e Fitness",
+   "comissao": 0.16,
+   "posicao": 5,
+   "retorno": 28.78,
+   "desconto": 74,
+   "sugerido_em": 1793813228.4676464,
+   "nota": 83,
+   "numero": 3,
+   "link": "https://meli.la/1WWhycZ",
+   "preco_postado": 179.9,
+   "criado_em": 1793877067.763764,
+   "ativo": true,
+   "postado": false,
+   "video": "videos/3.mp4",
+   "legenda": "Achadinho #3 🔥 Suplemento Whey Isolate Protein Fuse 1,8kg sabor Morango Dark Lab de R$ 699,90 por R$ 179,90 (74% OFF). Link na bio, procura o nº 3 🔗 #achadinhos #achadinhosmercadolivre #ofertas #promoção"
+  },
   {
    "id": "MLB25371983",
    "tipo": "PRODUCT",
