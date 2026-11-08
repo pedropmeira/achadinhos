@@ -82,6 +82,22 @@
    "nota": 40
   },
   {
+   "id": "MLB80460108",
+   "tipo": "PRODUCT",
+   "titulo": "Caixa lacrada com 6 Combo De Booster Pokémon - Celebração 30 Anos Copag Português",
+   "preco": 317,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_626547-MLA119141957229_102026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB80460108",
+   "categoria": "Brinquedos e Hobbies",
+   "comissao": 0.12,
+   "posicao": 20,
+   "retorno": 38.04,
+   "desconto": 0,
+   "sugerido_em": 1794175196.18541,
+   "nota": 40
+  },
+  {
    "id": "MLB19466433",
    "tipo": "PRODUCT",
    "titulo": "Lava Roupas Líquido Tixan Ypê Primavera 7 Litros",
@@ -824,7 +840,8 @@
   "MLB53768796": 1794160487.1273847,
   "MLB23482416": 1794160487.1273847,
   "MLB19466433": 1794160487.1273847,
-  "MLB50592250": 1794160487.1273847
+  "MLB50592250": 1794160487.1273847,
+  "MLB80460108": 1794175196.18541
  },
- "ultima_varredura": 1794160552.1988158
+ "ultima_varredura": 1794175253.1808944
 }
