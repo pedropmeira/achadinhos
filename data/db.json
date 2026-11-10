@@ -2,6 +2,38 @@
  "proximo_numero": 8,
  "sugestoes": [
   {
+   "id": "MLB29011598",
+   "tipo": "PRODUCT",
+   "titulo": "Lavadora de Alta Pressão WAP WL 1820 com Stop Total, Jato Leque e Concentrado",
+   "preco": 377.9,
+   "original": 728,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_968375-MLA87428792871_072025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB29011598",
+   "categoria": "Acessórios para Veículos",
+   "comissao": 0.12,
+   "posicao": 20,
+   "retorno": 45.35,
+   "desconto": 48,
+   "sugerido_em": 1794282151.7265365,
+   "nota": 70
+  },
+  {
+   "id": "MLB62511822",
+   "tipo": "PRODUCT",
+   "titulo": "Tênis Carina Street Bdp Puma",
+   "preco": 299.99,
+   "original": 349.99,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_735782-MLA99431268555_112025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB62511822",
+   "categoria": "Calçados, Roupas e Bolsas",
+   "comissao": 0.16,
+   "posicao": 7,
+   "retorno": 48.0,
+   "desconto": 14,
+   "sugerido_em": 1794282151.7265365,
+   "nota": 69
+  },
+  {
    "id": "MLB62564330",
    "tipo": "PRODUCT",
    "titulo": "Carregador de Bateria 12V 6A Bivolt Inteligente Carro Moto Caminhão Automotivo 4Ah a 100Ah Com Função Reparo Display Digital Proteção Carga Emergencia Portátil Resistente Eficiente Multifuncional",
@@ -16,6 +48,38 @@
    "desconto": 52,
    "sugerido_em": 1794205093.8090224,
    "nota": 64
+  },
+  {
+   "id": "MLB18722625",
+   "tipo": "PRODUCT",
+   "titulo": "Proteína Darkness Carnibol Beef em pó sabor Chocolate x 1.8kg",
+   "preco": 309,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_775815-MLA99993472513_112025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB18722625",
+   "categoria": "Esportes e Fitness",
+   "comissao": 0.16,
+   "posicao": 13,
+   "retorno": 49.44,
+   "desconto": 0,
+   "sugerido_em": 1794282151.7265365,
+   "nota": 52
+  },
+  {
+   "id": "MLB78457348",
+   "tipo": "PRODUCT",
+   "titulo": "Kit 10 Pote De Vidro Marmita Hermético 370ml Freezer Vitrex",
+   "preco": 68.9,
+   "original": 159.9,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_718827-MLA121009065709_112026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB78457348",
+   "categoria": "Casa, Móveis e Decoração",
+   "comissao": 0.12,
+   "posicao": 14,
+   "retorno": 8.27,
+   "desconto": 57,
+   "sugerido_em": 1794282151.7265365,
+   "nota": 49
   },
   {
    "id": "MLB16138960",
@@ -127,6 +191,22 @@
    "retorno": 6.0,
    "desconto": 48,
    "sugerido_em": 1794160487.1273847,
+   "nota": 39
+  },
+  {
+   "id": "MLB53817780",
+   "tipo": "PRODUCT",
+   "titulo": "Câmera Lâmpada Jortan Giratória 360° Visão Noturna Wi-Fi Full HD E27",
+   "preco": 49.99,
+   "original": 59.05,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_967723-MLA89628184976_082025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB53817780",
+   "categoria": "Casa, Móveis e Decoração",
+   "comissao": 0.12,
+   "posicao": 5,
+   "retorno": 6.0,
+   "desconto": 15,
+   "sugerido_em": 1794282151.7265365,
    "nota": 39
   },
   {
@@ -258,6 +338,22 @@
    "nota": 18
   },
   {
+   "id": "MLB38695622",
+   "tipo": "PRODUCT",
+   "titulo": "Telha Pvc Plan Precon de PVC Cerâmica 3,30m x 88cm Laranja",
+   "preco": 59.8,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_868628-MLA95214672168_102025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB38695622",
+   "categoria": "Construção",
+   "comissao": 0.12,
+   "posicao": 18,
+   "retorno": 7.18,
+   "desconto": 0,
+   "sugerido_em": 1794282151.7265365,
+   "nota": 12
+  },
+  {
    "id": "MLB64092957",
    "tipo": "PRODUCT",
    "titulo": "Vela De 7 Dias Votiva 200g Branca - 12 Unidades",
@@ -272,22 +368,6 @@
    "desconto": 0,
    "sugerido_em": 1794253614.5191488,
    "nota": 11
-  },
-  {
-   "id": "MLB19698479",
-   "tipo": "PRODUCT",
-   "titulo": "Creatina Dux Nutrition em pó Sem sabor x 300g",
-   "preco": 32.82,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_891287-MLA114656611130_082026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB19698479",
-   "categoria": "Esportes e Fitness",
-   "comissao": 0.16,
-   "posicao": 18,
-   "retorno": 5.25,
-   "desconto": 0,
-   "sugerido_em": 1794097978.7029207,
-   "nota": 10
   },
   {
    "id": "MLB23565092",
@@ -675,7 +755,13 @@
   "MLB12543508": 1794253614.5191488,
   "MLB59160016": 1794253614.5191488,
   "MLB19766716": 1794253614.5191488,
-  "MLB64092957": 1794253614.5191488
+  "MLB64092957": 1794253614.5191488,
+  "MLB29011598": 1794282151.7265365,
+  "MLB62511822": 1794282151.7265365,
+  "MLB18722625": 1794282151.7265365,
+  "MLB78457348": 1794282151.7265365,
+  "MLB53817780": 1794282151.7265365,
+  "MLB38695622": 1794282151.7265365
  },
- "ultima_varredura": 1794253693.0128217
+ "ultima_varredura": 1794282204.8809826
 }
