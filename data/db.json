@@ -82,22 +82,6 @@
    "nota": 49
   },
   {
-   "id": "MLB16138960",
-   "tipo": "PRODUCT",
-   "titulo": "Protetor solar Neostrata Minesol Oil Control 70FPS en gel creme 70mL",
-   "preco": 161.72,
-   "original": 173.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_894466-MLA108917866038_032026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB16138960",
-   "categoria": "Beleza e Cuidado Pessoal",
-   "comissao": 0.16,
-   "posicao": 11,
-   "retorno": 25.88,
-   "desconto": 7,
-   "sugerido_em": 1794132867.1252284,
-   "nota": 45
-  },
-  {
    "id": "MLB53768796",
    "tipo": "PRODUCT",
    "titulo": "Lavadora de Alta Pressão Compacta WAP WL 1800 1400W 1500PSI 360L/h 127V",
@@ -322,22 +306,6 @@
    "nota": 26
   },
   {
-   "id": "MLB44803478",
-   "tipo": "PRODUCT",
-   "titulo": "Suplemento em pó Darkness Pré Treino Évora sabor Neon Berry x 300g",
-   "preco": 91.5,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_620175-MLA100061229369_122025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB44803478",
-   "categoria": "Esportes e Fitness",
-   "comissao": 0.16,
-   "posicao": 19,
-   "retorno": 14.64,
-   "desconto": 0,
-   "sugerido_em": 1794132867.1252284,
-   "nota": 18
-  },
-  {
    "id": "MLB38695622",
    "tipo": "PRODUCT",
    "titulo": "Telha Pvc Plan Precon de PVC Cerâmica 3,30m x 88cm Laranja",
@@ -368,22 +336,6 @@
    "desconto": 0,
    "sugerido_em": 1794253614.5191488,
    "nota": 11
-  },
-  {
-   "id": "MLB23565092",
-   "tipo": "PRODUCT",
-   "titulo": "Incenso Nag Champa 12 Aromas Massala Darshan Kit Com 12 Caixas 120 Varetas",
-   "preco": 55.9,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_604635-MLA99969868383_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB23565092",
-   "categoria": "Mais Categorias",
-   "comissao": 0.12,
-   "posicao": 20,
-   "retorno": 6.71,
-   "desconto": 0,
-   "sugerido_em": 1794132867.1252284,
-   "nota": 8
   }
  ],
  "ofertas": [
@@ -763,5 +715,5 @@
   "MLB53817780": 1794282151.7265365,
   "MLB38695622": 1794282151.7265365
  },
- "ultima_varredura": 1794282204.8809826
+ "ultima_varredura": 1794322178.6159265
 }
