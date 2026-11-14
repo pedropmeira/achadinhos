@@ -226,22 +226,6 @@
    "nota": 58
   },
   {
-   "id": "MLB65041642",
-   "tipo": "PRODUCT",
-   "titulo": "Smartphone Motorola Moto G17 4g - 128gb 4gb Ram + 8gb Ram Boost, Camera 50mp Sony Lytia 600, Tela Fhd+ 60hz, Bateria 5200 Mah - Azul",
-   "preco": 887,
-   "original": 1599,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_773592-MLA105493148200_012026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB65041642",
-   "categoria": "Celulares e Telefones",
-   "comissao": 0.05,
-   "posicao": 4,
-   "retorno": 44.35,
-   "desconto": 45,
-   "sugerido_em": 1794449718.0295956,
-   "nota": 56
-  },
-  {
    "id": "MLB21361292",
    "tipo": "PRODUCT",
    "titulo": "Loção Hidratante Corporal 3 Ceramidas Hidratação 120h CeraVe 473ml",
@@ -610,6 +594,22 @@
    "nota": 47
   },
   {
+   "id": "MLB22500020",
+   "tipo": "PRODUCT",
+   "titulo": "Melhor do que nos filmes - Painter, Lynn - Intrínseca - Capa Mole",
+   "preco": 43.86,
+   "original": 69.9,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_715474-MLU72564017573_102023-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB22500020",
+   "categoria": "Livros, Revistas e Comics",
+   "comissao": 0.12,
+   "posicao": 8,
+   "retorno": 5.26,
+   "desconto": 37,
+   "sugerido_em": 1794651455.0847394,
+   "nota": 47
+  },
+  {
    "id": "MLB64322156",
    "tipo": "PRODUCT",
    "titulo": "Philips OneBlade Aparador e Barbeador Elétrico com Pente Ajustável 5 em 1 | Raspa, Apara e Contorna | Uso Seco e Molhado | 100% À Prova d'Água | Sem Fio | Bivolt | QP1425/10",
@@ -799,6 +799,22 @@
    "retorno": 14.95,
    "desconto": 21,
    "sugerido_em": 1794513161.8828087,
+   "nota": 44
+  },
+  {
+   "id": "MLB35959035",
+   "tipo": "PRODUCT",
+   "titulo": "Mineral/Vitamina Bodyaction Nutri Science Magnésio E Inositol Taurina Melatonina 210g em pó sabor Maracujá x 210g",
+   "preco": 45.65,
+   "original": 89.9,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_653067-MLA110738695437_042026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB35959035",
+   "categoria": "Esportes e Fitness",
+   "comissao": 0.16,
+   "posicao": 16,
+   "retorno": 7.3,
+   "desconto": 49,
+   "sugerido_em": 1794651455.0847394,
    "nota": 44
   },
   {
@@ -1026,22 +1042,6 @@
    "nota": 40
   },
   {
-   "id": "MLB47245501",
-   "tipo": "PRODUCT",
-   "titulo": "Smartphone Motorola Edge 60 Fusion 5g - 256gb 8gb Ram+8gb Ram Boost, 50mp Sony Ai Camera Ip68 Nfc - Cinza Vegan Leather",
-   "preco": 1999,
-   "original": 3299,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_631624-MLA99926713059_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB47245501",
-   "categoria": "Celulares e Telefones",
-   "comissao": 0.05,
-   "posicao": 20,
-   "retorno": 99.95,
-   "desconto": 39,
-   "sugerido_em": 1794449718.0295956,
-   "nota": 39
-  },
-  {
    "id": "MLB29473724",
    "tipo": "PRODUCT",
    "titulo": "Cortina 4,00x2,80 Metros Blackout Blecaute Preto Corta Luz Em Tecido Grosso Para Quarto E Sala Texfine",
@@ -1106,6 +1106,22 @@
    "nota": 39
   },
   {
+   "id": "MLB38477725",
+   "tipo": "PRODUCT",
+   "titulo": "Latex acrílica tinta coral anti mofo branco 18l coralar branco fosco",
+   "preco": 308.99,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_807241-MLA99565665626_122025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB38477725",
+   "categoria": "Construção",
+   "comissao": 0.12,
+   "posicao": 20,
+   "retorno": 37.08,
+   "desconto": 0,
+   "sugerido_em": 1794651455.0847394,
+   "nota": 39
+  },
+  {
    "id": "MLB32043715",
    "tipo": "PRODUCT",
    "titulo": "Tapete 2x1,5 Sala Peludo Quarto Cores Variadas Cor Branco Desenho Do Tecido Pelo Alto",
@@ -1135,6 +1151,22 @@
    "retorno": 11.55,
    "desconto": 23,
    "sugerido_em": 1794598706.9312983,
+   "nota": 36
+  },
+  {
+   "id": "MLB40724415",
+   "tipo": "PRODUCT",
+   "titulo": "Não é como nos filmes - Painter, Lynn - Intrínseca - Capa Mole",
+   "preco": 43.85,
+   "original": 69.9,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_606947-MLU78999855738_092024-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB40724415",
+   "categoria": "Livros, Revistas e Comics",
+   "comissao": 0.12,
+   "posicao": 15,
+   "retorno": 5.26,
+   "desconto": 37,
+   "sugerido_em": 1794651455.0847394,
    "nota": 36
   },
   {
@@ -1346,22 +1378,6 @@
    "nota": 32
   },
   {
-   "id": "MLB21693452",
-   "tipo": "PRODUCT",
-   "titulo": "Relógio Casio Masculino Digital Preto de Resina W-59-1VQ",
-   "preco": 108.9,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_684326-MLA115755090874_092026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB21693452",
-   "categoria": "Joias e Relógios",
-   "comissao": 0.12,
-   "posicao": 9,
-   "retorno": 13.07,
-   "desconto": 0,
-   "sugerido_em": 1794449718.0295956,
-   "nota": 31
-  },
-  {
    "id": "MLB63152047",
    "tipo": "PRODUCT",
    "titulo": "Patinete Infantil 3 Rodas Led Dobrável Luppy Azul Maxi Toys",
@@ -1378,20 +1394,20 @@
    "nota": 31
   },
   {
-   "id": "MLB15578941",
+   "id": "MLB39960346",
    "tipo": "PRODUCT",
-   "titulo": "Liquidificador Philco 1200W 3L 12 Velocidades Preto PH900",
-   "preco": 116.3,
-   "original": 183.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_766837-MLA98259429221_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB15578941",
-   "categoria": "Eletrodomésticos",
-   "comissao": 0.05,
-   "posicao": 20,
-   "retorno": 5.82,
-   "desconto": 37,
-   "sugerido_em": 1794449718.0295956,
-   "nota": 30
+   "titulo": "Controle Sem Fio Joystick REDFIN Bluetooth Compatível Para Ps4 Videogame Tv Samsung Pc P4 Ps 4 Manete Pc Gamer Tv Smart Controle Bluetooth Celular Headset Sem Fio Com P2 Marca Redfin",
+   "preco": 49.9,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_762912-MLA105696431793_012026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB39960346",
+   "categoria": "Games",
+   "comissao": 0.12,
+   "posicao": 4,
+   "retorno": 5.99,
+   "desconto": 0,
+   "sugerido_em": 1794651455.0847394,
+   "nota": 31
   },
   {
    "id": "MLB44117615",
@@ -1439,6 +1455,22 @@
    "retorno": 5.0,
    "desconto": 0,
    "sugerido_em": 1794567250.5237637,
+   "nota": 30
+  },
+  {
+   "id": "MLB32333269",
+   "tipo": "PRODUCT",
+   "titulo": "Nintendo Gift Card eShop R$ 50 (Digital)",
+   "preco": 50,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_845854-MLA115155718544_082026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB32333269",
+   "categoria": "Games",
+   "comissao": 0.12,
+   "posicao": 5,
+   "retorno": 6.0,
+   "desconto": 0,
+   "sugerido_em": 1794651455.0847394,
    "nota": 30
   },
   {
@@ -1602,6 +1634,22 @@
    "nota": 26
   },
   {
+   "id": "MLB20870718",
+   "tipo": "PRODUCT",
+   "titulo": "Proteína New Millen Premium Whey Isolado Isolate em pó sabor Morango x 900g",
+   "preco": 142.95,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_667292-MLA112330453655_052026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB20870718",
+   "categoria": "Esportes e Fitness",
+   "comissao": 0.16,
+   "posicao": 19,
+   "retorno": 22.87,
+   "desconto": 0,
+   "sugerido_em": 1794651455.0847394,
+   "nota": 26
+  },
+  {
    "id": "MLB22962407",
    "tipo": "PRODUCT",
    "titulo": "Câmera Instantânea Fujifilm Instax Mini 12 Cor Azul Candy",
@@ -1647,6 +1695,22 @@
    "retorno": 5.95,
    "desconto": 0,
    "sugerido_em": 1794598706.9312983,
+   "nota": 24
+  },
+  {
+   "id": "MLB77672147",
+   "tipo": "PRODUCT",
+   "titulo": "Blister Duplo Com Moeda Celebração 30 Anos Pokémon TCG Português",
+   "preco": 109.9,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_896714-MLA117063745326_102026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB77672147",
+   "categoria": "Brinquedos e Hobbies",
+   "comissao": 0.12,
+   "posicao": 14,
+   "retorno": 13.19,
+   "desconto": 0,
+   "sugerido_em": 1794651455.0847394,
    "nota": 24
   },
   {
@@ -1744,22 +1808,6 @@
    "desconto": 0,
    "sugerido_em": 1794619572.836819,
    "nota": 20
-  },
-  {
-   "id": "MLB61376192",
-   "tipo": "PRODUCT",
-   "titulo": "Compressor De Ar Mini Bomba Calibrador De Ar Portátil Recarregável Para Pneus De Bicicleta Moto Carro Bolas Infláveis",
-   "preco": 53,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_673819-MLA112851730885_062026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB61376192",
-   "categoria": "Acessórios para Veículos",
-   "comissao": 0.12,
-   "posicao": 15,
-   "retorno": 6.36,
-   "desconto": 0,
-   "sugerido_em": 1794449718.0295956,
-   "nota": 15
   },
   {
    "id": "MLB54026101",
@@ -2043,7 +2091,7 @@
   "MLB50243717": 1794481177.8457456,
   "MLB19592776": 1794534527.9344025,
   "MLB19772622": 1794513161.8828087,
-  "MLB39960346": 1793876898.668994,
+  "MLB39960346": 1794651455.0847394,
   "MLB26080271": 1794534527.9344025,
   "MLB24473062": 1793876898.668994,
   "MLB50181290": 1793876898.668994,
@@ -2082,7 +2130,7 @@
   "MLB43534649": 1794567250.5237637,
   "MLB60276890": 1794598706.9312983,
   "MLB80854232": 1793921822.667499,
-  "MLB20870718": 1793921822.667499,
+  "MLB20870718": 1794651455.0847394,
   "MLB34016199": 1794619572.836819,
   "MLB50196682": 1794598706.9312983,
   "MLB18953093": 1794567250.5237637,
@@ -2143,20 +2191,20 @@
   "MLB32043715": 1794598706.9312983,
   "MLB57081243": 1794619572.836819,
   "MLB18218388": 1794006360.3100138,
-  "MLB32333269": 1794006360.3100138,
+  "MLB32333269": 1794651455.0847394,
   "MLB12406685": 1794619572.836819,
   "MLB51870940": 1794619572.836819,
   "MLB42456000": 1794006360.3100138,
   "MLB45617876": 1794006360.3100138,
   "MLB27915441": 1794006360.3100138,
-  "MLB40724415": 1794030842.7767005,
+  "MLB40724415": 1794651455.0847394,
   "MLB12576599": 1794030842.7767005,
   "MLB39766120": 1794030842.7767005,
   "MLB42164469": 1794030842.7767005,
   "MLB35925111": 1794030842.7767005,
-  "MLB22500020": 1794030842.7767005,
-  "MLB35959035": 1794030842.7767005,
-  "MLB77672147": 1794030842.7767005,
+  "MLB22500020": 1794651455.0847394,
+  "MLB35959035": 1794651455.0847394,
+  "MLB77672147": 1794651455.0847394,
   "MLB65806827": 1794056121.1649735,
   "MLB36136752": 1794079464.676544,
   "MLB22540591": 1794079464.676544,
@@ -2212,7 +2260,8 @@
   "MLB19620491": 1794598706.9312983,
   "MLB69735015": 1794598706.9312983,
   "MLB59608894": 1794619572.836819,
-  "MLB24544782": 1794619572.836819
+  "MLB24544782": 1794619572.836819,
+  "MLB38477725": 1794651455.0847394
  },
- "ultima_varredura": 1794619649.9846587
+ "ultima_varredura": 1794651522.6477602
 }
