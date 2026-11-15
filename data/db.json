@@ -2,6 +2,22 @@
  "proximo_numero": 8,
  "sugestoes": [
   {
+   "id": "MLB53768796",
+   "tipo": "PRODUCT",
+   "titulo": "Lavadora de Alta Pressão Compacta WAP WL 1800 1400W 1500PSI 360L/h 127V",
+   "preco": 299,
+   "original": 575,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_914656-MLA112812146736_072026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB53768796",
+   "categoria": "Ferramentas",
+   "comissao": 0.12,
+   "posicao": 6,
+   "retorno": 35.88,
+   "desconto": 48,
+   "sugerido_em": 1794782819.716531,
+   "nota": 87
+  },
+  {
    "id": "MLB17822924",
    "tipo": "PRODUCT",
    "titulo": "Relógio de pulso Casio GA-2100 com corria de resina cor vermelho - fondo bordô",
@@ -18,22 +34,6 @@
    "nota": 80
   },
   {
-   "id": "MLB39016247",
-   "tipo": "PRODUCT",
-   "titulo": "O Boticário Quasar Blue Desodorante Colônia 100ml",
-   "preco": 74.9,
-   "original": 189.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_645686-MLA82876911341_032025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB39016247",
-   "categoria": "Beleza e Cuidado Pessoal",
-   "comissao": 0.16,
-   "posicao": 2,
-   "retorno": 11.98,
-   "desconto": 61,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 70
-  },
-  {
    "id": "MLB36136752",
    "tipo": "PRODUCT",
    "titulo": "O Boticário Liz Flora Desodorante Colônia 100ml",
@@ -48,22 +48,6 @@
    "desconto": 61,
    "sugerido_em": 1794694802.6797724,
    "nota": 66
-  },
-  {
-   "id": "MLB18725308",
-   "tipo": "PRODUCT",
-   "titulo": "Creatina Soldiers Nutrition em pó Sem sabor x 500g",
-   "preco": 44.99,
-   "original": 78.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_784236-MLA119862530715_102026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB18725308",
-   "categoria": "Esportes e Fitness",
-   "comissao": 0.16,
-   "posicao": 3,
-   "retorno": 7.2,
-   "desconto": 43,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 60
   },
   {
    "id": "MLB65806827",
@@ -114,20 +98,20 @@
    "nota": 57
   },
   {
-   "id": "MLB27080589",
+   "id": "MLB50592250",
    "tipo": "PRODUCT",
-   "titulo": "Kit 2 Refil De Água Acqua Pure Electrolux Pe12a Pe12b Pe12g PC01X, Cor Marrom-claro",
-   "preco": 152.39,
-   "original": 197.99,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_764049-MLA114244626520_082026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB27080589",
-   "categoria": "Eletrodomésticos",
+   "titulo": "Power Bank Basike 20000mAh Preto, Carga Rápida 22.5W para iPhone e Samsung, Com Cabos Embutidos e Display",
+   "preco": 139.1,
+   "original": 213.88,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_719636-MLA99381510294_112025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB50592250",
+   "categoria": "Celulares e Telefones",
    "comissao": 0.05,
-   "posicao": 1,
-   "retorno": 7.62,
-   "desconto": 23,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 51
+   "posicao": 4,
+   "retorno": 6.96,
+   "desconto": 35,
+   "sugerido_em": 1794782819.716531,
+   "nota": 53
   },
   {
    "id": "MLB65276331",
@@ -146,20 +130,20 @@
    "nota": 51
   },
   {
-   "id": "MLB50196682",
+   "id": "MLB19548535",
    "tipo": "PRODUCT",
-   "titulo": "Sony PlayStation Store Gift Card R$ 150 (Digital)",
-   "preco": 150,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_902418-MLA116666090065_082026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB50196682",
-   "categoria": "Games",
-   "comissao": 0.12,
-   "posicao": 1,
-   "retorno": 18.0,
-   "desconto": 0,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 48
+   "titulo": "Super Whey Protein Refil 900g Max Titanium Sabor Morango",
+   "preco": 73.63,
+   "original": 269.85,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_813467-MLA112393792119_052026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB19548535",
+   "categoria": "Esportes e Fitness",
+   "comissao": 0.16,
+   "posicao": 15,
+   "retorno": 11.78,
+   "desconto": 73,
+   "sugerido_em": 1794782819.716531,
+   "nota": 51
   },
   {
    "id": "MLB22500020",
@@ -176,22 +160,6 @@
    "desconto": 37,
    "sugerido_em": 1794651455.0847394,
    "nota": 47
-  },
-  {
-   "id": "MLB65541449",
-   "tipo": "PRODUCT",
-   "titulo": "Fone de Ouvido JBL Tune 530BT Bluetooth Sem Fio Preto Headphone com Microfone Wireless Estéreo Graves Potentes Confortável",
-   "preco": 174.99,
-   "original": 349,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_608030-MLA106478715282_022026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB65541449",
-   "categoria": "Celulares e Telefones",
-   "comissao": 0.05,
-   "posicao": 16,
-   "retorno": 8.75,
-   "desconto": 50,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 46
   },
   {
    "id": "MLB24208936",
@@ -242,20 +210,20 @@
    "nota": 44
   },
   {
-   "id": "MLB62230579",
+   "id": "MLB80460108",
    "tipo": "PRODUCT",
-   "titulo": "Air Fryer Oven Britânia 11L 8 Funções 1800W Painel Digital BAF11A",
-   "preco": 349,
-   "original": 473.1,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_866410-MLA106357490185_022026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB62230579",
-   "categoria": "Eletrodomésticos",
-   "comissao": 0.05,
-   "posicao": 15,
-   "retorno": 17.45,
-   "desconto": 26,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 42
+   "titulo": "Combo Booster Pokémon Celebração 30 Anos Copag Original",
+   "preco": 329,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_626547-MLA119141957229_102026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB80460108",
+   "categoria": "Brinquedos e Hobbies",
+   "comissao": 0.12,
+   "posicao": 18,
+   "retorno": 39.48,
+   "desconto": 0,
+   "sugerido_em": 1794782819.716531,
+   "nota": 44
   },
   {
    "id": "MLB57081243",
@@ -322,38 +290,6 @@
    "nota": 41
   },
   {
-   "id": "MLB19620491",
-   "tipo": "PRODUCT",
-   "titulo": "Gel De Limpeza Facial Effaclar Concentrado 300g La Roche Posay",
-   "preco": 76.79,
-   "original": 133.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_976360-MLA115029876009_072026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB19620491",
-   "categoria": "Beleza e Cuidado Pessoal",
-   "comissao": 0.16,
-   "posicao": 20,
-   "retorno": 12.29,
-   "desconto": 43,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 40
-  },
-  {
-   "id": "MLB18464286",
-   "tipo": "PRODUCT",
-   "titulo": "Capacete Moto Aberto Pro Tork New Liberty Three Amarelo Tamanho 56 Desenho Solid Viseira Cristal",
-   "preco": 119.89,
-   "original": 179,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_951048-MLA101766821321_122025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB18464286",
-   "categoria": "Acessórios para Veículos",
-   "comissao": 0.12,
-   "posicao": 17,
-   "retorno": 14.39,
-   "desconto": 33,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 40
-  },
-  {
    "id": "MLB19195590",
    "tipo": "PRODUCT",
    "titulo": "A cabeça do santo - Acioli, Socorro - Companhia das Letras - Capa Mole",
@@ -367,6 +303,22 @@
    "retorno": 5.4,
    "desconto": 40,
    "sugerido_em": 1794679096.7436616,
+   "nota": 40
+  },
+  {
+   "id": "MLB23482416",
+   "tipo": "PRODUCT",
+   "titulo": "Escada Articulada Alumínio 3,35m 13 Posições Dobrável Botafogo",
+   "preco": 207.53,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_619627-MLA93091444904_092025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB23482416",
+   "categoria": "Construção",
+   "comissao": 0.12,
+   "posicao": 11,
+   "retorno": 24.9,
+   "desconto": 0,
+   "sugerido_em": 1794782819.716531,
    "nota": 40
   },
   {
@@ -386,20 +338,20 @@
    "nota": 39
   },
   {
-   "id": "MLB32043715",
+   "id": "MLB19466433",
    "tipo": "PRODUCT",
-   "titulo": "Tapete 2x1,5 Sala Peludo Quarto Cores Variadas Cor Branco Desenho Do Tecido Pelo Alto",
-   "preco": 59.9,
-   "original": 115.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_753255-MLA95501946854_102025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB32043715",
+   "titulo": "Lava Roupas Líquido Tixan Ypê Primavera 7 Litros",
+   "preco": 58.99,
+   "original": 95.99,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_850337-MLA110275056555_042026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB19466433",
    "categoria": "Casa, Móveis e Decoração",
    "comissao": 0.12,
-   "posicao": 20,
-   "retorno": 7.19,
-   "desconto": 48,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 37
+   "posicao": 15,
+   "retorno": 7.08,
+   "desconto": 39,
+   "sugerido_em": 1794782819.716531,
+   "nota": 39
   },
   {
    "id": "MLB64174316",
@@ -416,22 +368,6 @@
    "desconto": 52,
    "sugerido_em": 1794679096.7436616,
    "nota": 37
-  },
-  {
-   "id": "MLB52039200",
-   "tipo": "PRODUCT",
-   "titulo": "Samsung Galaxy Buds Core branco",
-   "preco": 230.92,
-   "original": 299.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_967872-MLA87279987383_072025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB52039200",
-   "categoria": "Celulares e Telefones",
-   "comissao": 0.05,
-   "posicao": 14,
-   "retorno": 11.55,
-   "desconto": 23,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 36
   },
   {
    "id": "MLB40724415",
@@ -464,22 +400,6 @@
    "desconto": 18,
    "sugerido_em": 1794679096.7436616,
    "nota": 36
-  },
-  {
-   "id": "MLB22341315",
-   "tipo": "PRODUCT",
-   "titulo": "Fone De Ouvido Com Fio Usb H390 Rosa Logitech Luz Nude",
-   "preco": 229.9,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_607621-MLA99549027968_122025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB22341315",
-   "categoria": "Games",
-   "comissao": 0.12,
-   "posicao": 16,
-   "retorno": 27.59,
-   "desconto": 0,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 35
   },
   {
    "id": "MLB19508984",
@@ -610,22 +530,6 @@
    "nota": 30
   },
   {
-   "id": "MLB19590092",
-   "tipo": "PRODUCT",
-   "titulo": "Ducha Eletrônica Lorenzetti Loren Shower Ultra 7500w 220v Branco",
-   "preco": 131.79,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_638677-MLA118516851287_092026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB19590092",
-   "categoria": "Casa, Móveis e Decoração",
-   "comissao": 0.12,
-   "posicao": 12,
-   "retorno": 15.81,
-   "desconto": 0,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 29
-  },
-  {
    "id": "MLB39766120",
    "tipo": "PRODUCT",
    "titulo": "SSD Kingston NV3 1TB M.2 2280 PCIe 4.0 NVMe 6000 MB/s",
@@ -690,38 +594,6 @@
    "nota": 26
   },
   {
-   "id": "MLB60276890",
-   "tipo": "PRODUCT",
-   "titulo": "Bambu Lab PLA Lite vermelho",
-   "preco": 117.99,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_998645-MLA99980485903_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB60276890",
-   "categoria": "Informática",
-   "comissao": 0.05,
-   "posicao": 8,
-   "retorno": 5.9,
-   "desconto": 0,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 25
-  },
-  {
-   "id": "MLB29217644",
-   "tipo": "PRODUCT",
-   "titulo": "Fujifilm Filme Instantâneo Instax Mini C/ 20 Fotos",
-   "preco": 119,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_618231-MLA99493089846_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB29217644",
-   "categoria": "Câmeras e Acessórios",
-   "comissao": 0.05,
-   "posicao": 9,
-   "retorno": 5.95,
-   "desconto": 0,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 24
-  },
-  {
    "id": "MLB77672147",
    "tipo": "PRODUCT",
    "titulo": "Blister Duplo Com Moeda Celebração 30 Anos Pokémon TCG Português",
@@ -770,22 +642,6 @@
    "nota": 24
   },
   {
-   "id": "MLB69735015",
-   "tipo": "PRODUCT",
-   "titulo": "Pokémon ME04 Caos Ascendente Blister Quádruplo Toxel 4 Boosters copag",
-   "preco": 44.99,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_861056-MLA116069207296_092026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB69735015",
-   "categoria": "Brinquedos e Hobbies",
-   "comissao": 0.12,
-   "posicao": 9,
-   "retorno": 5.4,
-   "desconto": 0,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 23
-  },
-  {
    "id": "MLB13586527",
    "tipo": "PRODUCT",
    "titulo": "Cartão Micro Sd 32gb 16tbw Western Digital Purple",
@@ -800,22 +656,6 @@
    "desconto": 0,
    "sugerido_em": 1794694802.6797724,
    "nota": 23
-  },
-  {
-   "id": "MLB65763694",
-   "tipo": "PRODUCT",
-   "titulo": "Jogo De Chave Boca E Estrela Combinada 12 Pçs Aço 6-22 Mm Cromada Profissional Tkch12 The Black Tools",
-   "preco": 57.9,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_610242-MLA107057310600_022026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB65763694",
-   "categoria": "Ferramentas",
-   "comissao": 0.12,
-   "posicao": 11,
-   "retorno": 6.95,
-   "desconto": 0,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 22
   },
   {
    "id": "MLB24544782",
@@ -850,22 +690,6 @@
    "nota": 21
   },
   {
-   "id": "MLB17335905",
-   "tipo": "PRODUCT",
-   "titulo": "Fralda Pampers Premium Care Tamanho RN (Até 4 kg), 36 Unidades",
-   "preco": 65.9,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_984861-MLA119414616118_112026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB17335905",
-   "categoria": "Bebês",
-   "comissao": 0.12,
-   "posicao": 13,
-   "retorno": 7.91,
-   "desconto": 0,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 20
-  },
-  {
    "id": "MLB19617676",
    "tipo": "PRODUCT",
    "titulo": "Micro-ondas ME23S 23L Efficient Com Descongelamento Assistido Cor Inox Electrolux",
@@ -882,6 +706,22 @@
    "nota": 20
   },
   {
+   "id": "MLB57591271",
+   "tipo": "PRODUCT",
+   "titulo": "200 Vela Palito Branca 13,5cm Parafina 100% Pura Atacado Branco Padrão Nenhuma",
+   "preco": 78.98,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_988666-MLA100187115477_122025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB57591271",
+   "categoria": "Mais Categorias",
+   "comissao": 0.12,
+   "posicao": 16,
+   "retorno": 9.48,
+   "desconto": 0,
+   "sugerido_em": 1794782819.716531,
+   "nota": 17
+  },
+  {
    "id": "MLB54026101",
    "tipo": "PRODUCT",
    "titulo": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
@@ -896,22 +736,6 @@
    "desconto": 0,
    "sugerido_em": 1794619572.836819,
    "nota": 12
-  },
-  {
-   "id": "MLB52304672",
-   "tipo": "PRODUCT",
-   "titulo": "Roblox R$ 100 eGift (Digital)",
-   "preco": 100,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_952461-MLA116490244409_082026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB52304672",
-   "categoria": "Informática",
-   "comissao": 0.05,
-   "posicao": 18,
-   "retorno": 5.0,
-   "desconto": 0,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 10
   },
   {
    "id": "MLB13535537",
@@ -944,22 +768,6 @@
    "desconto": 0,
    "sugerido_em": 1794723738.7043204,
    "nota": 9
-  },
-  {
-   "id": "MLB29303249",
-   "tipo": "PRODUCT",
-   "titulo": "Filme Instantâneo Instax Com 20 Poses Fujifilm Filmemini20 Cor Branco",
-   "preco": 125,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_765893-MLA99991166865_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB29303249",
-   "categoria": "Câmeras e Acessórios",
-   "comissao": 0.05,
-   "posicao": 20,
-   "retorno": 6.25,
-   "desconto": 0,
-   "sugerido_em": 1794598706.9312983,
-   "nota": 8
   },
   {
    "id": "MLB19698479",
@@ -1031,15 +839,15 @@
    "id": "MLB24473062",
    "tipo": "PRODUCT",
    "titulo": "Controle GameSir G7 SE com Fio para Xbox One Series S X PC Hall Effect Botões Mecânicos Cor Branco",
-   "preco": 259,
-   "original": 459.9,
+   "preco": 238.27,
+   "original": null,
    "foto": "https://http2.mlstatic.com/D_NQ_NP_876806-MLA99469873464_112025-F.jpg",
    "url": "https://www.mercadolivre.com.br/p/MLB24473062",
    "categoria": "Games",
    "comissao": 0.12,
    "posicao": 19,
    "retorno": 28.68,
-   "desconto": 44,
+   "desconto": 0,
    "sugerido_em": 1793876898.668994,
    "nota": 60,
    "numero": 5,
@@ -1303,7 +1111,7 @@
   "MLB52039200": 1794598706.9312983,
   "MLB18464286": 1794598706.9312983,
   "MLB71623820": 1793983493.8470943,
-  "MLB57591271": 1793983493.8470943,
+  "MLB57591271": 1794782819.716531,
   "MLB19590092": 1794598706.9312983,
   "MLB65541449": 1794598706.9312983,
   "MLB17335905": 1794598706.9312983,
@@ -1334,11 +1142,11 @@
   "MLB16138960": 1794132867.1252284,
   "MLB44803478": 1794132867.1252284,
   "MLB23565092": 1794132867.1252284,
-  "MLB53768796": 1794160487.1273847,
-  "MLB23482416": 1794160487.1273847,
-  "MLB19466433": 1794160487.1273847,
-  "MLB50592250": 1794160487.1273847,
-  "MLB80460108": 1794175196.18541,
+  "MLB53768796": 1794782819.716531,
+  "MLB23482416": 1794782819.716531,
+  "MLB19466433": 1794782819.716531,
+  "MLB50592250": 1794782819.716531,
+  "MLB80460108": 1794782819.716531,
   "MLB62564330": 1794205093.8090224,
   "MLB21478210": 1794205093.8090224,
   "MLB36009189": 1794205093.8090224,
@@ -1394,7 +1202,8 @@
   "MLB13535537": 1794694802.6797724,
   "MLB24208936": 1794723738.7043204,
   "MLB15200666": 1794723738.7043204,
-  "MLB65276331": 1794759542.5985382
+  "MLB65276331": 1794759542.5985382,
+  "MLB19548535": 1794782819.716531
  },
- "ultima_varredura": 1794759594.370091
+ "ultima_varredura": 1794782886.0641909
 }
