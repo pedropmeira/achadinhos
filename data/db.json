@@ -2,6 +2,22 @@
  "proximo_numero": 8,
  "sugestoes": [
   {
+   "id": "MLB80854232",
+   "tipo": "PRODUCT",
+   "titulo": "Mala De Viagem Bordo Mão Pequena 10kg Abs Cadeado 360 Azul",
+   "preco": 149.99,
+   "original": 349.9,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_940651-MLA118415001690_102026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB80854232",
+   "categoria": "Calçados, Roupas e Bolsas",
+   "comissao": 0.16,
+   "posicao": 10,
+   "retorno": 24.0,
+   "desconto": 57,
+   "sugerido_em": 1795001668.0893304,
+   "nota": 70
+  },
+  {
    "id": "MLB62797467",
    "tipo": "PRODUCT",
    "titulo": "Floratta Flores Secretas 75ml O Boticário Feminino",
@@ -529,7 +545,7 @@
   "MLB34295736": 1793899365.7045476,
   "MLB43534649": 1794567250.5237637,
   "MLB60276890": 1794598706.9312983,
-  "MLB80854232": 1793921822.667499,
+  "MLB80854232": 1795001668.0893304,
   "MLB20870718": 1794651455.0847394,
   "MLB34016199": 1794619572.836819,
   "MLB50196682": 1794598706.9312983,
@@ -684,5 +700,5 @@
   "MLB35762220": 1794930961.8497405,
   "MLB24588020": 1794964445.3672855
  },
- "ultima_varredura": 1794964520.0605443
+ "ultima_varredura": 1795001741.8105154
 }
