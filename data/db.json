@@ -162,6 +162,22 @@
    "nota": 59
   },
   {
+   "id": "MLB15578941",
+   "tipo": "PRODUCT",
+   "titulo": "Liquidificador Philco 1200W 3L 12 Velocidades Preto PH900",
+   "preco": 99.9,
+   "original": 265,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_766837-MLA98259429221_112025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB15578941",
+   "categoria": "Eletrodomésticos",
+   "comissao": 0.05,
+   "posicao": 5,
+   "retorno": 5.0,
+   "desconto": 62,
+   "sugerido_em": 1795056062.6215239,
+   "nota": 59
+  },
+  {
    "id": "MLB63966639",
    "tipo": "PRODUCT",
    "titulo": "Filamento Pla Plus 1kg Impressão 3d Nacional - Cores Cor Preto",
@@ -338,6 +354,22 @@
    "nota": 41
   },
   {
+   "id": "MLB47245501",
+   "tipo": "PRODUCT",
+   "titulo": "Smartphone Motorola Edge 60 Fusion 5g - 256gb 8gb Ram+8gb Ram Boost, 50mp Sony Ai Camera Ip68 Nfc - Cinza Vegan Leather",
+   "preco": 1999,
+   "original": 3299,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_631624-MLA99926713059_112025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB47245501",
+   "categoria": "Celulares e Telefones",
+   "comissao": 0.05,
+   "posicao": 19,
+   "retorno": 99.95,
+   "desconto": 39,
+   "sugerido_em": 1795056062.6215239,
+   "nota": 40
+  },
+  {
    "id": "MLB47944518",
    "tipo": "PRODUCT",
    "titulo": "Lavadora De Alta Pressão Kärcher Prática Black 1500 Psi 1400w 300l/h Com Aplicador De Detergente E Lança Regulável",
@@ -351,6 +383,22 @@
    "retorno": 32.23,
    "desconto": 0,
    "sugerido_em": 1795033629.5789454,
+   "nota": 38
+  },
+  {
+   "id": "MLB65041642",
+   "tipo": "PRODUCT",
+   "titulo": "Smartphone Motorola Moto G17 4g - 128gb 4gb Ram + 8gb Ram Boost, Camera 50mp Sony Lytia 600, Tela Fhd+ 60hz, Bateria 5200 Mah - Azul",
+   "preco": 1026,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_773592-MLA105493148200_012026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB65041642",
+   "categoria": "Celulares e Telefones",
+   "comissao": 0.05,
+   "posicao": 5,
+   "retorno": 51.3,
+   "desconto": 0,
+   "sugerido_em": 1795056062.6215239,
    "nota": 38
   },
   {
@@ -466,6 +514,22 @@
    "nota": 31
   },
   {
+   "id": "MLB21693452",
+   "tipo": "PRODUCT",
+   "titulo": "Relógio Casio Masculino Digital Preto de Resina W-59-1VQ",
+   "preco": 89.9,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_732017-MLA115754742020_092026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB21693452",
+   "categoria": "Joias e Relógios",
+   "comissao": 0.12,
+   "posicao": 9,
+   "retorno": 10.79,
+   "desconto": 0,
+   "sugerido_em": 1795056062.6215239,
+   "nota": 29
+  },
+  {
    "id": "MLB24588020",
    "tipo": "PRODUCT",
    "titulo": "Cartão de Memória Micro SD SanDisk Ultra microSDXC 128GB SDSQUNR-128G com Adaptador",
@@ -482,6 +546,22 @@
    "nota": 27
   },
   {
+   "id": "MLB69620524",
+   "tipo": "PRODUCT",
+   "titulo": "Fralda Confort Sec Tamanho Xxg 82 Unidades Pampers",
+   "preco": 111.09,
+   "original": 133.9,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_971120-MLA115772115597_082026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB69620524",
+   "categoria": "Bebês",
+   "comissao": 0.12,
+   "posicao": 20,
+   "retorno": 13.33,
+   "desconto": 17,
+   "sugerido_em": 1795056062.6215239,
+   "nota": 25
+  },
+  {
    "id": "MLB59160016",
    "tipo": "PRODUCT",
    "titulo": "Lanterna Mais Forte Do Mundo Recarregável Tática Potente T9 - Apfer",
@@ -495,6 +575,22 @@
    "retorno": 7.15,
    "desconto": 0,
    "sugerido_em": 1794887300.4720325,
+   "nota": 19
+  },
+  {
+   "id": "MLB19721946",
+   "tipo": "PRODUCT",
+   "titulo": "Relógio Casio Unissex Vintage Prata Aq-230a-1dmq",
+   "preco": 97.81,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_633473-MLA115741902361_082026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB19721946",
+   "categoria": "Joias e Relógios",
+   "comissao": 0.12,
+   "posicao": 16,
+   "retorno": 11.74,
+   "desconto": 0,
+   "sugerido_em": 1795056062.6215239,
    "nota": 19
   },
   {
@@ -707,7 +803,7 @@
   "MLB1046215784": 1793811400.557369,
   "MLB66896529": 1793811400.557369,
   "MLB34113516": 1795033629.5789454,
-  "MLB47245501": 1794449718.0295956,
+  "MLB47245501": 1795056062.6215239,
   "MLB47106610": 1793811400.557369,
   "MLB51340616": 1793811400.557369,
   "MLB64639978": 1793811400.557369,
@@ -718,7 +814,7 @@
   "MLB78889321": 1793812355.6046393,
   "MLB62148588": 1793812355.6046393,
   "MLB61418288": 1793812355.6046393,
-  "MLB65041642": 1794449718.0295956,
+  "MLB65041642": 1795056062.6215239,
   "MLB55762063": 1793812355.6046393,
   "MLB54961556": 1795033629.5789454,
   "MLB24656724": 1795033629.5789454,
@@ -733,7 +829,7 @@
   "MLB38176139": 1795033629.5789454,
   "MLB51652593": 1793813228.4676464,
   "MLB22871761": 1794425643.2104888,
-  "MLB21693452": 1794449718.0295956,
+  "MLB21693452": 1795056062.6215239,
   "MLB24326256": 1795033629.5789454,
   "MLB61376192": 1794449718.0295956,
   "MLB47944518": 1795033629.5789454,
@@ -910,11 +1006,11 @@
   "MLB62797467": 1794964445.3672855,
   "MLB57344280": 1794345419.2384741,
   "MLB65579852": 1794964445.3672855,
-  "MLB19721946": 1794425643.2104888,
+  "MLB19721946": 1795056062.6215239,
   "MLB57468779": 1795033629.5789454,
   "MLB52052995": 1795033629.5789454,
   "MLB66141214": 1795033629.5789454,
-  "MLB15578941": 1794449718.0295956,
+  "MLB15578941": 1795056062.6215239,
   "MLB66806360": 1794481177.8457456,
   "MLB55232692": 1794513161.8828087,
   "MLB60416809": 1794513161.8828087,
@@ -955,7 +1051,8 @@
   "MLB62311864": 1794930961.8497405,
   "MLB35762220": 1794930961.8497405,
   "MLB24588020": 1794964445.3672855,
-  "MLB68956726": 1795033629.5789454
+  "MLB68956726": 1795033629.5789454,
+  "MLB69620524": 1795056062.6215239
  },
- "ultima_varredura": 1795033711.2308893
+ "ultima_varredura": 1795056133.437977
 }
