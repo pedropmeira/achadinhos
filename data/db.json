@@ -2,22 +2,6 @@
  "proximo_numero": 8,
  "sugestoes": [
   {
-   "id": "MLB25371983",
-   "tipo": "PRODUCT",
-   "titulo": "Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI 1400W 300L/h com Aplicador de Detergente e Lança Regulável",
-   "preco": 299,
-   "original": 499.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_681126-MLA115545993062_082026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB25371983",
-   "categoria": "Ferramentas",
-   "comissao": 0.12,
-   "posicao": 5,
-   "retorno": 35.88,
-   "desconto": 40,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 84
-  },
-  {
    "id": "MLB29011598",
    "tipo": "PRODUCT",
    "titulo": "Lavadora de Alta Pressão WAP WL 1820 com Stop Total, Jato Leque e Concentrado",
@@ -66,38 +50,6 @@
    "nota": 72
   },
   {
-   "id": "MLB63152047",
-   "tipo": "PRODUCT",
-   "titulo": "Patinete Infantil 3 Rodas Led Dobrável Luppy Azul Maxi Toys",
-   "preco": 54.9,
-   "original": 159.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_702576-MLA110388417253_042026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB63152047",
-   "categoria": "Brinquedos e Hobbies",
-   "comissao": 0.12,
-   "posicao": 6,
-   "retorno": 6.59,
-   "desconto": 66,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 59
-  },
-  {
-   "id": "MLB33997846",
-   "tipo": "PRODUCT",
-   "titulo": "Controle Sem Fio Sony DualSense para PlayStation 5 Cor Branco CFI-ZCT1W",
-   "preco": 459,
-   "original": 599,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_948051-MLA119960877876_112026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB33997846",
-   "categoria": "Games",
-   "comissao": 0.12,
-   "posicao": 18,
-   "retorno": 55.08,
-   "desconto": 23,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 58
-  },
-  {
    "id": "MLB19590092",
    "tipo": "PRODUCT",
    "titulo": "Ducha Eletrônica Lorenzetti Loren Shower Ultra 7500w 220v Branco",
@@ -112,22 +64,6 @@
    "desconto": 68,
    "sugerido_em": 1795227070.1410637,
    "nota": 57
-  },
-  {
-   "id": "MLB44923446",
-   "tipo": "PRODUCT",
-   "titulo": "Chinelo Unissex Top Havaianas Liso",
-   "preco": 33.99,
-   "original": 49.99,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_740930-MLA100107121067_122025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB44923446",
-   "categoria": "Calçados, Roupas e Bolsas",
-   "comissao": 0.16,
-   "posicao": 1,
-   "retorno": 5.44,
-   "desconto": 32,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 55
   },
   {
    "id": "MLB47044981",
@@ -192,22 +128,6 @@
    "desconto": 35,
    "sugerido_em": 1795174157.9632485,
    "nota": 52
-  },
-  {
-   "id": "MLB24783436",
-   "tipo": "PRODUCT",
-   "titulo": "Modulo Taramps 400 Rms Ts-400 Ts400x4 T400 4 Canais V6",
-   "preco": 155.9,
-   "original": 199,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_727270-MLA116319031959_082026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB24783436",
-   "categoria": "Acessórios para Veículos",
-   "comissao": 0.12,
-   "posicao": 8,
-   "retorno": 18.71,
-   "desconto": 22,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 51
   },
   {
    "id": "MLB27080589",
@@ -306,54 +226,6 @@
    "nota": 50
   },
   {
-   "id": "MLB19592776",
-   "tipo": "PRODUCT",
-   "titulo": "Proteína Adaptogen Science Tasty Whey Gourmet em pó sabor Doce de leite x 900g",
-   "preco": 178,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_738007-MLA97316893807_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB19592776",
-   "categoria": "Esportes e Fitness",
-   "comissao": 0.16,
-   "posicao": 7,
-   "retorno": 28.48,
-   "desconto": 0,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 49
-  },
-  {
-   "id": "MLB18725403",
-   "tipo": "PRODUCT",
-   "titulo": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
-   "preco": 74.9,
-   "original": 104.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_819000-MLA101180020755_122025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB18725403",
-   "categoria": "Esportes e Fitness",
-   "comissao": 0.16,
-   "posicao": 8,
-   "retorno": 11.98,
-   "desconto": 29,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 49
-  },
-  {
-   "id": "MLB23487120",
-   "tipo": "PRODUCT",
-   "titulo": "Filamento PLA Voolt3D High Speed Premium de 1.75mm e 1kg Verde Velvet",
-   "preco": 116.39,
-   "original": 159.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_647571-MLA116549201715_082026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB23487120",
-   "categoria": "Informática",
-   "comissao": 0.05,
-   "posicao": 4,
-   "retorno": 5.82,
-   "desconto": 27,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 48
-  },
-  {
    "id": "MLB18953093",
    "tipo": "PRODUCT",
    "titulo": "Whey Protein Growth Concentrado 1kg – Sabor Baunilha",
@@ -402,38 +274,6 @@
    "nota": 48
   },
   {
-   "id": "MLB56979786",
-   "tipo": "PRODUCT",
-   "titulo": "Compressor de Ar Portátil VERUNTO VER-B15 com Tela Digital para Carro, Moto e Bicicleta",
-   "preco": 63.19,
-   "original": 78.99,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_842487-MLA120158163710_112026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB56979786",
-   "categoria": "Acessórios para Veículos",
-   "comissao": 0.12,
-   "posicao": 3,
-   "retorno": 7.58,
-   "desconto": 20,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 47
-  },
-  {
-   "id": "MLB1055308835",
-   "tipo": "PRODUCT",
-   "titulo": "iPhone 17 de 256 GB - Lavanda - Distribuidor Autorizado",
-   "preco": 5859,
-   "original": 7999,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_896332-MLA95400062457_102025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB1055308835",
-   "categoria": "Celulares e Telefones",
-   "comissao": 0.05,
-   "posicao": 6,
-   "retorno": 292.95,
-   "desconto": 27,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 47
-  },
-  {
    "id": "MLB70449712",
    "tipo": "PRODUCT",
    "titulo": "Body Splash Masculino Vibration 200ml - Primacial Perfume Bergamota Fresco",
@@ -450,22 +290,6 @@
    "nota": 46
   },
   {
-   "id": "MLB30144703",
-   "tipo": "PRODUCT",
-   "titulo": "Parafusadeira Furadeira De Impacto The Black Tools Profissional TB-21PX 2 Baterias Com Maleta 60Hz Amarelo",
-   "preco": 122,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_981459-MLA117136184907_092026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB30144703",
-   "categoria": "Ferramentas",
-   "comissao": 0.12,
-   "posicao": 1,
-   "retorno": 14.64,
-   "desconto": 0,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 45
-  },
-  {
    "id": "MLB50196682",
    "tipo": "PRODUCT",
    "titulo": "Sony PlayStation Store Gift Card R$ 150 (Digital)",
@@ -480,22 +304,6 @@
    "desconto": 0,
    "sugerido_em": 1795227070.1410637,
    "nota": 45
-  },
-  {
-   "id": "MLB22778772",
-   "tipo": "PRODUCT",
-   "titulo": "Controle Para Xbox 360 Com Fio USB Joystick Manete Gamepad Controle PC Gamer Para Computador Windows Steam Game Pass Android Gamepass TV Vibração Analógico Ergonômico Plug And Play Redfin",
-   "preco": 42.9,
-   "original": 89.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_905623-MLA118558569418_102026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB22778772",
-   "categoria": "Games",
-   "comissao": 0.12,
-   "posicao": 16,
-   "retorno": 5.15,
-   "desconto": 52,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 43
   },
   {
    "id": "MLB74242291",
@@ -690,22 +498,6 @@
    "nota": 38
   },
   {
-   "id": "MLB53924359",
-   "tipo": "PRODUCT",
-   "titulo": "Caixa de Som Bluetooth Portátil - JBL Boombox 4 - JBL Pro Sound, AI Sound Boost, 210W RMS, até 34h de Bateria, Bass Boost, IP68, Auracast e USB-C Lossless - Preta",
-   "preco": 2371.46,
-   "original": 3199,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_863194-MLA118534430667_092026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB53924359",
-   "categoria": "Eletrônicos, Áudio e Vídeo",
-   "comissao": 0.05,
-   "posicao": 17,
-   "retorno": 118.57,
-   "desconto": 26,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 37
-  },
-  {
    "id": "MLB18464286",
    "tipo": "PRODUCT",
    "titulo": "Capacete Moto Aberto Pro Tork New Liberty Three Amarelo Tamanho 56 Desenho Solid Viseira Cristal",
@@ -754,38 +546,6 @@
    "nota": 36
   },
   {
-   "id": "MLB54934723",
-   "tipo": "PRODUCT",
-   "titulo": "Extensão Elétrica Two Lef de 30 Metros com 3 Tomadas e 20A Bivolt",
-   "preco": 64.99,
-   "original": 99.89,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_641159-MLA117859946629_092026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB54934723",
-   "categoria": "Construção",
-   "comissao": 0.12,
-   "posicao": 17,
-   "retorno": 7.8,
-   "desconto": 35,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 35
-  },
-  {
-   "id": "MLB42105593",
-   "tipo": "PRODUCT",
-   "titulo": "Fralda Protect & Sec 90 Unidades Tamanho Médio Personal Baby",
-   "preco": 58.79,
-   "original": 63.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_754916-MLA99922830519_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB42105593",
-   "categoria": "Bebês",
-   "comissao": 0.12,
-   "posicao": 6,
-   "retorno": 7.05,
-   "desconto": 8,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 34
-  },
-  {
    "id": "MLB79391475",
    "tipo": "PRODUCT",
    "titulo": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B",
@@ -816,22 +576,6 @@
    "desconto": 21,
    "sugerido_em": 1795227070.1410637,
    "nota": 33
-  },
-  {
-   "id": "MLB53222689",
-   "tipo": "PRODUCT",
-   "titulo": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
-   "preco": 119,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_942823-MLA113526261849_062026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB53222689",
-   "categoria": "Casa, Móveis e Decoração",
-   "comissao": 0.12,
-   "posicao": 9,
-   "retorno": 14.28,
-   "desconto": 0,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 32
   },
   {
    "id": "MLB54854859",
@@ -880,22 +624,6 @@
    "desconto": 0,
    "sugerido_em": 1795258577.2899292,
    "nota": 31
-  },
-  {
-   "id": "MLB16084358",
-   "tipo": "PRODUCT",
-   "titulo": "Papel Higiênico Neve Supreme Folha Tripla, Kit Com 24 Rolos",
-   "preco": 49.9,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_866261-MLA99361636628_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB16084358",
-   "categoria": "Beleza e Cuidado Pessoal",
-   "comissao": 0.16,
-   "posicao": 6,
-   "retorno": 7.98,
-   "desconto": 0,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 30
   },
   {
    "id": "MLB65269789",
@@ -1106,22 +834,6 @@
    "nota": 26
   },
   {
-   "id": "MLB27212611",
-   "tipo": "PRODUCT",
-   "titulo": "Malibu Rolo De Tnt 40g 50 Metros 1.40 De Largura Cor Preto",
-   "preco": 67.16,
-   "original": 69.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_967652-MLA96101815039_102025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB27212611",
-   "categoria": "Construção",
-   "comissao": 0.12,
-   "posicao": 11,
-   "retorno": 8.06,
-   "desconto": 4,
-   "sugerido_em": 1795141069.4316425,
-   "nota": 25
-  },
-  {
    "id": "MLB37516784",
    "tipo": "PRODUCT",
    "titulo": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Azul",
@@ -1247,6 +959,22 @@
    "retorno": 10.56,
    "desconto": 0,
    "sugerido_em": 1795310110.9445972,
+   "nota": 20
+  },
+  {
+   "id": "MLB24787822",
+   "tipo": "PRODUCT",
+   "titulo": "3M H0002317875 fita dupla face Vhb 19mm X 20m",
+   "preco": 89.07,
+   "original": 98.97,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_880772-MLA99986242909_112025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB24787822",
+   "categoria": "Construção",
+   "comissao": 0.12,
+   "posicao": 19,
+   "retorno": 10.69,
+   "desconto": 10,
+   "sugerido_em": 1795346104.856693,
    "nota": 20
   },
   {
@@ -1734,7 +1462,8 @@
   "MLB15578948": 1795087933.5313177,
   "MLB18392651": 1795087933.5313177,
   "MLB74190834": 1795120232.6673086,
-  "MLB79391475": 1795227070.1410637
+  "MLB79391475": 1795227070.1410637,
+  "MLB24787822": 1795346104.856693
  },
- "ultima_varredura": 1795310178.3967133
+ "ultima_varredura": 1795346151.4601452
 }
