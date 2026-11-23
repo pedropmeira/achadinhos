@@ -2,6 +2,22 @@
  "proximo_numero": 8,
  "sugestoes": [
   {
+   "id": "MLB53768796",
+   "tipo": "PRODUCT",
+   "titulo": "Lavadora de Alta Pressão Compacta WAP WL 1800 1400W 1500PSI 360L/h 127V",
+   "preco": 299,
+   "original": 575,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_914656-MLA112812146736_072026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB53768796",
+   "categoria": "Ferramentas",
+   "comissao": 0.12,
+   "posicao": 4,
+   "retorno": 35.88,
+   "desconto": 48,
+   "sugerido_em": 1795397965.9106612,
+   "nota": 90
+  },
+  {
    "id": "MLB19140415",
    "tipo": "PRODUCT",
    "titulo": "Suplemento Whey Isolate Protein Fuse 1,8kg sabor Morango Dark Lab",
@@ -290,6 +306,22 @@
    "nota": 43
   },
   {
+   "id": "MLB1046215784",
+   "tipo": "PRODUCT",
+   "titulo": "iPhone 16e (128 GB) - Preto - Distribuidor Autorizado",
+   "preco": 3332,
+   "original": 5799,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_961264-MLA95713213402_102025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB1046215784",
+   "categoria": "Celulares e Telefones",
+   "comissao": 0.05,
+   "posicao": 18,
+   "retorno": 166.6,
+   "desconto": 43,
+   "sugerido_em": 1795397965.9106612,
+   "nota": 42
+  },
+  {
    "id": "MLB18218388",
    "tipo": "PRODUCT",
    "titulo": "Supercoffee Tradicional Classic Size 220g Caffeine Army Original",
@@ -466,6 +498,22 @@
    "nota": 36
   },
   {
+   "id": "MLB19466433",
+   "tipo": "PRODUCT",
+   "titulo": "Lava Roupas Líquido Tixan Ypê Primavera 7 Litros",
+   "preco": 58.99,
+   "original": 95.99,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_850337-MLA110275056555_042026-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB19466433",
+   "categoria": "Casa, Móveis e Decoração",
+   "comissao": 0.12,
+   "posicao": 17,
+   "retorno": 7.08,
+   "desconto": 39,
+   "sugerido_em": 1795397965.9106612,
+   "nota": 36
+  },
+  {
    "id": "MLB79391475",
    "tipo": "PRODUCT",
    "titulo": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B",
@@ -543,6 +591,22 @@
    "retorno": 82.68,
    "desconto": 0,
    "sugerido_em": 1795258577.2899292,
+   "nota": 31
+  },
+  {
+   "id": "MLB50592250",
+   "tipo": "PRODUCT",
+   "titulo": "Power Bank Basike 20000mAh Preto, Carga Rápida 22.5W para iPhone e Samsung, Com Cabos Embutidos e Display",
+   "preco": 114.99,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_719636-MLA99381510294_112025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB50592250",
+   "categoria": "Celulares e Telefones",
+   "comissao": 0.05,
+   "posicao": 4,
+   "retorno": 5.75,
+   "desconto": 0,
+   "sugerido_em": 1795397965.9106612,
    "nota": 31
   },
   {
@@ -850,6 +914,22 @@
    "nota": 15
   },
   {
+   "id": "MLB57591271",
+   "tipo": "PRODUCT",
+   "titulo": "200 Vela Palito Branca 13,5cm Parafina 100% Pura Atacado Branco Padrão Nenhuma",
+   "preco": 78.98,
+   "original": null,
+   "foto": "https://http2.mlstatic.com/D_NQ_NP_988666-MLA100187115477_122025-F.jpg",
+   "url": "https://www.mercadolivre.com.br/p/MLB57591271",
+   "categoria": "Mais Categorias",
+   "comissao": 0.12,
+   "posicao": 18,
+   "retorno": 9.48,
+   "desconto": 0,
+   "sugerido_em": 1795397965.9106612,
+   "nota": 14
+  },
+  {
    "id": "MLB42164469",
    "tipo": "PRODUCT",
    "titulo": "Vitamina Always Fit Fit Hair para Cabelo e Unhas 30 Cápsulas",
@@ -1062,7 +1142,7 @@
   "MLB1055308835": 1795141069.4316425,
   "MLB1040287790": 1793811400.557369,
   "MLB57714599": 1793811400.557369,
-  "MLB1046215784": 1793811400.557369,
+  "MLB1046215784": 1795397965.9106612,
   "MLB66896529": 1793811400.557369,
   "MLB34113516": 1795033629.5789454,
   "MLB47245501": 1795056062.6215239,
@@ -1213,7 +1293,7 @@
   "MLB52039200": 1795227070.1410637,
   "MLB18464286": 1795227070.1410637,
   "MLB71623820": 1793983493.8470943,
-  "MLB57591271": 1794782819.716531,
+  "MLB57591271": 1795397965.9106612,
   "MLB19590092": 1795227070.1410637,
   "MLB65541449": 1795258577.2899292,
   "MLB17335905": 1795258577.2899292,
@@ -1244,10 +1324,10 @@
   "MLB16138960": 1794132867.1252284,
   "MLB44803478": 1794132867.1252284,
   "MLB23565092": 1794132867.1252284,
-  "MLB53768796": 1794782819.716531,
+  "MLB53768796": 1795397965.9106612,
   "MLB23482416": 1794782819.716531,
-  "MLB19466433": 1794782819.716531,
-  "MLB50592250": 1794782819.716531,
+  "MLB19466433": 1795397965.9106612,
+  "MLB50592250": 1795397965.9106612,
   "MLB80460108": 1794782819.716531,
   "MLB62564330": 1794205093.8090224,
   "MLB21478210": 1795033629.5789454,
@@ -1326,5 +1406,5 @@
   "MLB24647466": 1795375943.4550438,
   "MLB80772580": 1795375943.4550438
  },
- "ultima_varredura": 1795376009.638754
+ "ultima_varredura": 1795398015.813244
 }
