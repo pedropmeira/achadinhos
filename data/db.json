@@ -162,22 +162,6 @@
    "nota": 23
   },
   {
-   "id": "MLB24787822",
-   "tipo": "PRODUCT",
-   "titulo": "3M H0002317875 fita dupla face Vhb 19mm X 20m",
-   "preco": 89.07,
-   "original": 98.97,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_880772-MLA99986242909_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB24787822",
-   "categoria": "Construção",
-   "comissao": 0.12,
-   "posicao": 19,
-   "retorno": 10.69,
-   "desconto": 10,
-   "sugerido_em": 1795346104.856693,
-   "nota": 20
-  },
-  {
    "id": "MLB19698479",
    "tipo": "PRODUCT",
    "titulo": "Creatina Dux Monohidratada 100% Em Pó 300g Sem Sabor",
@@ -670,5 +654,5 @@
   "MLB24647466": 1795375943.4550438,
   "MLB80772580": 1795375943.4550438
  },
- "ultima_varredura": 1795486315.748734
+ "ultima_varredura": 1795527525.494671
 }
