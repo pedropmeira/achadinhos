@@ -18,22 +18,6 @@
    "nota": 90
   },
   {
-   "id": "MLB65276331",
-   "tipo": "PRODUCT",
-   "titulo": "Kit Starlink Mini X – Internet via Satélite com Antena Mini e Roteador Wi-Fi 6",
-   "preco": 439.9,
-   "original": 589.99,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_906463-MLA118742749100_102026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB65276331",
-   "categoria": "Eletrônicos, Áudio e Vídeo",
-   "comissao": 0.05,
-   "posicao": 15,
-   "retorno": 22.0,
-   "desconto": 25,
-   "sugerido_em": 1795375943.4550438,
-   "nota": 46
-  },
-  {
    "id": "MLB1046215784",
    "tipo": "PRODUCT",
    "titulo": "iPhone 16e (128 GB) - Preto - Distribuidor Autorizado",
@@ -48,22 +32,6 @@
    "desconto": 43,
    "sugerido_em": 1795397965.9106612,
    "nota": 42
-  },
-  {
-   "id": "MLB69620405",
-   "tipo": "PRODUCT",
-   "titulo": "Fralda Pampers Confort Sec Tamanho G, 92 Un",
-   "preco": 119.9,
-   "original": 133.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_636582-MLA118799061081_102026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB69620405",
-   "categoria": "Bebês",
-   "comissao": 0.12,
-   "posicao": 8,
-   "retorno": 14.39,
-   "desconto": 10,
-   "sugerido_em": 1795375943.4550438,
-   "nota": 40
   },
   {
    "id": "MLB19466433",
@@ -82,38 +50,6 @@
    "nota": 36
   },
   {
-   "id": "MLB47900489",
-   "tipo": "PRODUCT",
-   "titulo": "Monitor AOC 22\" 120Hz 1ms Gaming HDMI 22B35HM23 Preto",
-   "preco": 399,
-   "original": 499,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_744601-MLA99934274785_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB47900489",
-   "categoria": "Informática",
-   "comissao": 0.05,
-   "posicao": 20,
-   "retorno": 19.95,
-   "desconto": 20,
-   "sugerido_em": 1795375943.4550438,
-   "nota": 33
-  },
-  {
-   "id": "MLB26380332",
-   "tipo": "PRODUCT",
-   "titulo": "Vonixx Blend 500ml Proteção E Brilho + Flanela Microfibra",
-   "preco": 45.9,
-   "original": 78.9,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_660778-MLA110508992255_042026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB26380332",
-   "categoria": "Acessórios para Veículos",
-   "comissao": 0.12,
-   "posicao": 20,
-   "retorno": 5.51,
-   "desconto": 42,
-   "sugerido_em": 1795375943.4550438,
-   "nota": 32
-  },
-  {
    "id": "MLB50592250",
    "tipo": "PRODUCT",
    "titulo": "Power Bank Basike 20000mAh Preto, Carga Rápida 22.5W para iPhone e Samsung, Com Cabos Embutidos e Display",
@@ -130,54 +66,6 @@
    "nota": 31
   },
   {
-   "id": "MLB67714382",
-   "tipo": "PRODUCT",
-   "titulo": "Smartwatch HUAWEI WATCH FIT 5 AMOLED de 182\" Design Leve Mini Treino Bateria com Até 10 Dias 64 GB Gerenciamento Avançado da Saúde Monitor do Sono SpO2 GPS Compatível com iOS e Android Branco",
-   "preco": 719,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_888241-MLA110593054037_042026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB67714382",
-   "categoria": "Joias e Relógios",
-   "comissao": 0.12,
-   "posicao": 20,
-   "retorno": 86.28,
-   "desconto": 0,
-   "sugerido_em": 1795375943.4550438,
-   "nota": 25
-  },
-  {
-   "id": "MLB24647466",
-   "tipo": "PRODUCT",
-   "titulo": "Bicicleta De Equilíbrio 4 Rodas Buba Infantil Sem Pedal Cor Azul",
-   "preco": 179.89,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_614285-MLA99933903979_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB24647466",
-   "categoria": "Brinquedos e Hobbies",
-   "comissao": 0.12,
-   "posicao": 20,
-   "retorno": 21.59,
-   "desconto": 0,
-   "sugerido_em": 1795375943.4550438,
-   "nota": 23
-  },
-  {
-   "id": "MLB19698479",
-   "tipo": "PRODUCT",
-   "titulo": "Creatina Dux Monohidratada 100% Em Pó 300g Sem Sabor",
-   "preco": 33.99,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_646740-MLA121929723333_112026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB19698479",
-   "categoria": "Esportes e Fitness",
-   "comissao": 0.16,
-   "posicao": 11,
-   "retorno": 5.44,
-   "desconto": 0,
-   "sugerido_em": 1795375943.4550438,
-   "nota": 20
-  },
-  {
    "id": "MLB57591271",
    "tipo": "PRODUCT",
    "titulo": "200 Vela Palito Branca 13,5cm Parafina 100% Pura Atacado Branco Padrão Nenhuma",
@@ -192,22 +80,6 @@
    "desconto": 0,
    "sugerido_em": 1795397965.9106612,
    "nota": 14
-  },
-  {
-   "id": "MLB80772580",
-   "tipo": "PRODUCT",
-   "titulo": "Festão Aramado Grosso 300 Galhos 270cm Árvore de Natal Cheia Enfeite Decoração de Natal Gurilanda Escada Grande Verde LuvinCo",
-   "preco": 44.99,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_877963-MLA118368907496_102026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB80772580",
-   "categoria": "Casa, Móveis e Decoração",
-   "comissao": 0.12,
-   "posicao": 20,
-   "retorno": 5.4,
-   "desconto": 0,
-   "sugerido_em": 1795375943.4550438,
-   "nota": 7
   }
  ],
  "ofertas": [
@@ -357,9 +229,10 @@
    "criado_em": 1793813458.0497088,
    "ativo": false,
    "postado": true,
-   "video": "videos/2.mp4",
+   "video": null,
    "legenda": "Achadinho #2 🔥 Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI/Libras 1400W 300L/h com Apli de R$ 499,90 por R$ 298,00 (40% OFF). Link na bio, procura o nº 2 🔗 #achadinhos #achadinhosmercadolivre #ofertas #promoção",
-   "motivo": "expirou"
+   "motivo": "expirou",
+   "video_expirado": true
   },
   {
    "id": "MLB1055308835",
@@ -381,9 +254,10 @@
    "criado_em": 1793811829.0351005,
    "ativo": false,
    "postado": true,
-   "video": "videos/1.mp4",
+   "video": null,
    "legenda": "Achadinho #1 🔥 iPhone 17 de 256 GB - Lavanda - Distribuidor Autorizado de R$ 7.999,00 por R$ 6.332,22 (21% OFF). Link na bio, procura o nº 1 🔗 #achadinhos #achadinhosmercadolivre #ofertas #promoção",
-   "motivo": "expirou"
+   "motivo": "expirou",
+   "video_expirado": true
   }
  ],
  "vistos": {
@@ -654,5 +528,5 @@
   "MLB24647466": 1795375943.4550438,
   "MLB80772580": 1795375943.4550438
  },
- "ultima_varredura": 1795527525.494671
+ "ultima_varredura": 1795564440.7345495
 }
