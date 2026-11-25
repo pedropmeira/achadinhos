@@ -1,87 +1,6 @@
 {
  "proximo_numero": 8,
- "sugestoes": [
-  {
-   "id": "MLB53768796",
-   "tipo": "PRODUCT",
-   "titulo": "Lavadora de Alta Pressão Compacta WAP WL 1800 1400W 1500PSI 360L/h 127V",
-   "preco": 299,
-   "original": 575,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_914656-MLA112812146736_072026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB53768796",
-   "categoria": "Ferramentas",
-   "comissao": 0.12,
-   "posicao": 4,
-   "retorno": 35.88,
-   "desconto": 48,
-   "sugerido_em": 1795397965.9106612,
-   "nota": 90
-  },
-  {
-   "id": "MLB1046215784",
-   "tipo": "PRODUCT",
-   "titulo": "iPhone 16e (128 GB) - Preto - Distribuidor Autorizado",
-   "preco": 3332,
-   "original": 5799,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_961264-MLA95713213402_102025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB1046215784",
-   "categoria": "Celulares e Telefones",
-   "comissao": 0.05,
-   "posicao": 18,
-   "retorno": 166.6,
-   "desconto": 43,
-   "sugerido_em": 1795397965.9106612,
-   "nota": 42
-  },
-  {
-   "id": "MLB19466433",
-   "tipo": "PRODUCT",
-   "titulo": "Lava Roupas Líquido Tixan Ypê Primavera 7 Litros",
-   "preco": 58.99,
-   "original": 95.99,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_850337-MLA110275056555_042026-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB19466433",
-   "categoria": "Casa, Móveis e Decoração",
-   "comissao": 0.12,
-   "posicao": 17,
-   "retorno": 7.08,
-   "desconto": 39,
-   "sugerido_em": 1795397965.9106612,
-   "nota": 36
-  },
-  {
-   "id": "MLB50592250",
-   "tipo": "PRODUCT",
-   "titulo": "Power Bank Basike 20000mAh Preto, Carga Rápida 22.5W para iPhone e Samsung, Com Cabos Embutidos e Display",
-   "preco": 114.99,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_719636-MLA99381510294_112025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB50592250",
-   "categoria": "Celulares e Telefones",
-   "comissao": 0.05,
-   "posicao": 4,
-   "retorno": 5.75,
-   "desconto": 0,
-   "sugerido_em": 1795397965.9106612,
-   "nota": 31
-  },
-  {
-   "id": "MLB57591271",
-   "tipo": "PRODUCT",
-   "titulo": "200 Vela Palito Branca 13,5cm Parafina 100% Pura Atacado Branco Padrão Nenhuma",
-   "preco": 78.98,
-   "original": null,
-   "foto": "https://http2.mlstatic.com/D_NQ_NP_988666-MLA100187115477_122025-F.jpg",
-   "url": "https://www.mercadolivre.com.br/p/MLB57591271",
-   "categoria": "Mais Categorias",
-   "comissao": 0.12,
-   "posicao": 18,
-   "retorno": 9.48,
-   "desconto": 0,
-   "sugerido_em": 1795397965.9106612,
-   "nota": 14
-  }
- ],
+ "sugestoes": [],
  "ofertas": [
   {
    "id": "MLB70449712",
@@ -528,5 +447,5 @@
   "MLB24647466": 1795375943.4550438,
   "MLB80772580": 1795375943.4550438
  },
- "ultima_varredura": 1795564440.7345495
+ "ultima_varredura": 1795595194.1012616
 }
